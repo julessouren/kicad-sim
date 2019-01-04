@@ -1,0 +1,2628 @@
+|*****************************************************************************
+|
+[IBIS Ver]      1.1
+[File name]     82375sb.ibs
+[File Rev]      1.01
+[Date]          08/09/95
+[Source]        File originated at Intel Corporation.
+[Notes]         The following information corresponds to the PCEB chip.
+[Disclaimer]    This information is for modeling purposes only and is not
+                guaranteed.
+[Disclaimer]    IBIS Open Forum disclaims all warranties. See DISCLAIM.TXT
+                in vhdl.org:/pub/IBIS/models for the full disclaimer.
+|
+|*****************************************************************************
+|
+[Component]     82375SB
+[Manufacturer]  Intel Corporation
+[Package]
+|                 typ            min            max
+R_pkg           159.5m          42.0m         277.0m
+L_pkg            12.13nH         9.50nH        14.76nH
+C_pkg             1.86pF         1.61pF         2.11pF
+|
+|*****************************************************************************
+|
+[Pin]   signal_name     model_name              R_pin   L_pin   C_pin
+|
+1       VDD         POWER
+2       VSS         GND
+3       LA31        PCEBB12211A0S2AZZZZC
+4       LA30        PCEBB12211A0S2AZZZZC
+5       LA29        PCEBB12211A0S2AZZZZC
+6       LA28        PCEBB12211A0S2AZZZZC
+7       LA27        PCEBB12211A0S2AZZZZC
+8       LA26        PCEBB12211A0S2AZZZZC
+9       VSS         GND
+10      LA25        PCEBB12211A0S2AZZZZC
+11      LA24        PCEBB12211A0S2AZZZZC
+12      LA16        PCEBB12211A0S2AZZZZC
+13      LA15        PCEBB12211A0S2AZZZZC
+14      VDD         POWER
+15      LA14        PCEBB12211A0S2AZZZZC
+16      LA13        PCEBB12211A0S2AZZZZC
+17      LA12        PCEBB12211A0S2AZZZZC
+18      VSS         GND
+19      LA11        PCEBB12211A0S2AZZZZC
+20      LA10        PCEBB12211A0S2AZZZZC
+21      LA9         PCEBB12211A0S2AZZZZC
+22      LA8         PCEBB12211A0S2AZZZZC
+23      LA7         PCEBB12211A0S2AZZZZC
+24      LA6         PCEBB12211A0S2AZZZZC
+25      VDD         POWER
+26      VSS         GND
+27      VSS23       GND
+28      LA5         PCEBB12211A0S2AZZZZC
+29      LA4         PCEBB12211A0S2AZZZZC
+30      LA23        PCEBB12211A0S2AZZZZC
+31      LA3         PCEBB12211A0S2AZZZZC
+32      LA22        PCEBB12211A0S2AZZZZC
+33      LA2         PCEBB12211A0S2AZZZZC
+34      LA21        PCEBB12211A0S2AZZZZC
+35      VSS         GND
+36      LA20        PCEBB12211A0S2AZZZZC
+37      SD16        PCEBB16160A0S2AZZRUC
+38      SD17        PCEBB16160A0S2AZZRUC
+39      VDD         POWER
+40      LA19        PCEBB12211A0S2AZZZZC
+41      SD18        PCEBB16160A0S2AZZRUC
+42      SD19        PCEBB16160A0S2AZZRUC
+43      LA18        PCEBB12211A0S2AZZZZC
+44      SD20        PCEBB16160A0S2AZZRUC
+45      LA17        PCEBB12211A0S2AZZZZC
+46      VSS         GND
+47      SD21        PCEBB16160A0S2AZZRUC
+48      SD22        PCEBB16160A0S2AZZRUC
+49      SD23        PCEBB16160A0S2AZZRUC
+50      SD24        PCEBB16160A0S2AZZRUC
+51      SD25        PCEBB16160A0S2AZZRUC
+52      VDD3        POWER
+53      VDD         POWER
+54      VSS         GND
+55      SD8         PCEBB16160A0S2AZZRUC
+56      SD26        PCEBB16160A0S2AZZRUC
+57      SD9         PCEBB16160A0S2AZZRUC
+58      SD27        PCEBB16160A0S2AZZRUC
+59      SD28        PCEBB16160A0S2AZZRUC
+60      SD10        PCEBB16160A0S2AZZRUC
+61      SD11        PCEBB16160A0S2AZZRUC
+62      VSS         GND
+63      VDD         POWER
+64      SD29        PCEBB16160A0S2AZZRUC
+65      SD12        PCEBB16160A0S2AZZRUC
+66      SD30        PCEBB16160A0S2AZZRUC
+67      SD13        PCEBB16160A0S2AZZRUC
+68      SD31        PCEBB16160A0S2AZZRUC
+69      SD14        PCEBB16160A0S2AZZRUC
+70      SD15        PCEBB16160A0S2AZZRUC
+71      REQ0#       PCEBI00000A0S2AZZNMC
+72      REQ1#       PCEBI00000A0S2AZZNMC
+73      REQ2#       PCEBI00000A0S2AZZNMC
+74      REQ3#       PCEBI00000A0S2AZZNMC
+75      CPUREQ#     PCEBI00000A0S2AZZNMC
+76      CPUGNT#     PCEBT08080AXXXXZZKMB
+77      VSS23       GND
+78      VSS         GND
+79      VDD         POWER
+80      GNT3#       PCEBT08080AXXXXZZKMB
+81      GNT2#       PCEBT08080AXXXXZZKMB
+82      GNT1#       PCEBT08080AXXXXZZKMB
+83      GNT0#       PCEBT08080AXXXXZZKMB
+84      VSS         GND
+85      FLUSHREQ#   PCEBT08080AXXXXZZKMB
+86      MEMACK#     PCEBI00000A0S2AZZNMC
+87      MEMREQ#     PCEBT08080AXXXXZZKMB
+88      MEMCS#      PCEBT08080AXXXXZZKMB
+89      PIODEC#     PCEBI00000A0S2AZZNMC
+90      TEST#       PCEBI00000A0S2AZZNMC
+91      PCICLK      PCEBI00000A0S2AZZNMC
+92      IDSEL       PCEBI00000A0S2AZZNMC
+93      PCIRST#     PCEBI00000A0S2AZZNMC
+94      VDD         POWER
+95      VSS         GND
+96      NC          NC
+97      AD31        PCEBB12211A0S2AZZZZC
+98      AD30        PCEBB12211A0S2AZZZZC
+99      AD29        PCEBB12211A0S2AZZZZC
+100     AD28        PCEBB12211A0S2AZZZZC
+101     AD27        PCEBB12211A0S2AZZZZC
+102     AD26        PCEBB12211A0S2AZZZZC
+103     VSS         GND
+104     VDD         POWER
+105     VDD3        POWER
+106     NC          NC
+107     AD25        PCEBB12211A0S2AZZZZC
+108     AD24        PCEBB12211A0S2AZZZZC
+109     C/BE3#      PCEBB12211A0S2AZZZZC
+110     AD23        PCEBB12211A0S2AZZZZC
+111     AD22        PCEBB12211A0S2AZZZZC
+112     AD21        PCEBB12211A0S2AZZZZC
+113     VSS         GND
+114     AD20        PCEBB12211A0S2AZZZZC
+115     AD19        PCEBB12211A0S2AZZZZC
+116     VDD         POWER
+117     AD18        PCEBB12211A0S2AZZZZC
+118     AD17        PCEBB12211A0S2AZZZZC
+119     AD16        PCEBB12211A0S2AZZZZC
+120     C/BE2#      PCEBB12211A0S2AZZZZC
+121     VSS         GND
+122     FRAME#      PCEBB12211A0S2AZZZZC
+123     IRDY#       PCEBB12211A0S2AZZZZC
+124     TRDY#       PCEBB12211A0S2AZZZZC
+125     DEVSEL#     PCEBB12211A0S2AZZZZC
+126     STOP#       PCEBB12211A0S2AZZZZC
+127     PCILOCK#    PCEBB12211A0S2AZZZZC
+128     PERR#       PCEBB12211A0S2AZZZZC
+129     VSS23       GND
+130     VSS         GND
+131     VDD         POWER
+132     NC          NC
+133     NC          NC
+134     PAR         PCEBB12211A0S2AZZZZC
+135     C/BE1#      PCEBB12211A0S2AZZZZC
+136     AD15        PCEBB12211A0S2AZZZZC
+137     AD14        PCEBB12211A0S2AZZZZC
+138     AD13        PCEBB12211A0S2AZZZZC
+139     AD12        PCEBB12211A0S2AZZZZC
+140     VSS         GND
+141     AD11        PCEBB12211A0S2AZZZZC
+142     AD10        PCEBB12211A0S2AZZZZC
+143     AD9         PCEBB12211A0S2AZZZZC
+144     C/BE0#      PCEBB12211A0S2AZZZZC
+145     VDD         POWER
+146     AD8         PCEBB12211A0S2AZZZZC
+147     AD7         PCEBB12211A0S2AZZZZC
+148     AD6         PCEBB12211A0S2AZZZZC
+149     VSS         GND
+150     AD5         PCEBB12211A0S2AZZZZC
+151     AD4         PCEBB12211A0S2AZZZZC
+152     AD3         PCEBB12211A0S2AZZZZC
+153     AD2         PCEBB12211A0S2AZZZZC
+154     AD1         PCEBB12211A0S2AZZZZC
+155     AD0         PCEBB12211A0S2AZZZZC
+156     VDD3        POWER
+157     VDD         POWER
+158     VSS         GND
+159     STOPGNT#    PCEBT08081AXXXXZZKMB
+160     REFRESH#    PCEBI00000A0S2AZZNMC
+161     AFLUSH#     PCEBB08080A0S2AZZKMB
+162     EISAHOLD    PCEBI00000A1K3KZZNMC
+163     EISAHLDA    PCEBO08081AXXXXZZKMB
+164     PEREQ#      PCEBT08080AXXXXZZKMB
+165     NMFLUSH#    PCEBB08080A0S2AZZKMB
+166     LOCK#       PCEBB12211A0S2AZZZZC
+167     BCLK        PCEBI00000A0S2AZZNMC
+168     IO16#       PCEBB16160A0S2AZZRUC
+169     CMD#        PCEBI00000A0S2AZZNMC
+170     START#      PCEBB12211A0S2AZZZZC
+171     EXRDY       PCEBB12211A0S2AZZZZC
+172     EX32#       PCEBB16160A0S2AZZRUC
+173     EX16#       PCEBI00000A0S2AZZNMC
+174     SLBURST#    PCEBB12211A0S2AZZZZC
+175     SDLE3#      PCEBI00000A1K3KZZNMC
+176     SDLE2#      PCEBI00000A1K3KZZNMC
+177     SDLE1#      PCEBI00000A1K3KZZNMC
+178     SDLE0#      PCEBI00000A1K3KZZNMC
+179     SDCPYEN01#  PCEBI00000A1K3KZZNMC
+180     SDCPYEN02#  PCEBI00000A1K3KZZNMC
+181     VDD         POWER
+182     VSS         GND
+183     VSS23       GND
+184     SDCPYEN03#  PCEBI00000A1K3KZZNMC
+185     SDCPYEN13#  PCEBI00000A1K3KZZNMC
+186     SDCPYUP     PCEBI00000A1K3KZZNMC
+187     SDOE0#      PCEBI00000A0S2AZZVTC
+188     SDOE1#      PCEBI00000A0S2AZZVTC
+189     SDOE2#      PCEBI00000A0S2AZZVTC
+190     MSBURST#    PCEBB12211A0S2AZZZZC
+191     M/IO#       PCEBB12211A0S2AZZZZC
+192     W/R#        PCEBB12211A0S2AZZZZC
+193     VDD         POWER
+194     VSS         GND
+195     SD7         PCEBB16160A0S2AZZRUC
+196     SD6         PCEBB16160A0S2AZZRUC
+197     SD5         PCEBB16160A0S2AZZRUC
+198     SD4         PCEBB16160A0S2AZZRUC
+199     SD3         PCEBB16160A0S2AZZRUC
+200     VSS         GND
+201     SD2         PCEBB16160A0S2AZZRUC
+202     SD1         PCEBB16160A0S2AZZRUC
+203     SD0         PCEBB16160A0S2AZZRUC
+204     BE3#        PCEBB12211A0S2AZZZZC
+205     BE2#        PCEBB12211A0S2AZZZZC
+206     BE1#        PCEBB12211A0S2AZZZZC
+207     BE0#        PCEBB12211A0S2AZZZZC
+208     VDD3        POWER
+|
+|*********************************************************************
+|
+[Model]        PCEBB12211A0S2AZZZZC
+Model_type     I/O
+|
+Vinl = 0.80V
+Vinh = 2.00V
+|
+|                    typ                 min                 max
+|
+C_comp               2.30pF              1.24pF              4.28pF
+[Voltage range]      5.000V              4.750V              5.250V
+|
+|*********************************************************************
+|
+[Pulldown]
+|
+|       Voltage         I(typ)         I(min)         I(max)
+|
+        -5.00V       -890.71uA      -742.99uA        -1.06mA
+        -4.50V         -1.01mA      -840.93uA        -1.21mA
+        -4.00V         -1.17mA      -968.91uA        -1.40mA
+        -3.50V         -1.38mA        -1.14mA        -1.66mA
+        -3.00V         -1.70mA        -1.39mA        -2.05mA
+        -2.50V         -2.20mA        -1.79mA        -2.68mA
+        -2.00V         -3.11mA        -2.50mA        -3.86mA
+        -1.50V         -5.34mA        -4.13mA        -6.90mA
+        -1.40V         -6.22mA        -4.74mA        -8.17mA
+        -1.30V         -7.44mA        -5.57mA        -9.99mA
+        -1.20V         -9.25mA        -6.74mA       -12.88mA
+        -1.10V        -12.15mA        -8.50mA       -17.92mA
+        -1.00V        -17.48mA       -11.42mA       -28.66mA
+      -900.00mV       -29.53mA       -16.99mA       -60.56mA
+      -800.00mV       -63.92mA       -29.97mA      -139.05mA
+      -700.00mV      -100.16mA       -58.60mA      -140.48mA
+      -600.00mV       -91.61mA       -68.58mA      -123.09mA
+      -500.00mV       -77.85mA       -59.44mA      -104.65mA
+      -400.00mV       -63.42mA       -48.42mA       -85.43mA
+      -300.00mV       -48.44mA       -36.93mA       -65.40mA
+      -200.00mV       -32.89mA       -25.03mA       -44.53mA
+      -100.00mV       -16.75mA       -12.72mA       -22.74mA
+         0.00V          3.12nA         1.58nA         7.10nA
+       100.00mV        16.55mA        12.55mA        22.49mA
+       200.00mV        32.09mA        24.38mA        43.52mA
+       300.00mV        46.67mA        35.49mA        63.15mA
+       400.00mV        60.33mA        45.93mA        81.46mA
+       500.00mV        73.10mA        55.70mA        98.51mA
+       600.00mV        85.02mA        64.84mA       114.37mA
+       700.00mV        96.11mA        73.36mA       129.07mA
+       800.00mV       106.42mA        81.28mA       142.69mA
+       900.00mV       115.98mA        88.63mA       155.27mA
+         1.00V        124.80mA        95.42mA       166.85mA
+         1.10V        132.92mA       101.67mA       177.48mA
+         1.20V        140.37mA       107.39mA       187.21mA
+         1.30V        147.16mA       112.61mA       196.07mA
+         1.40V        153.33mA       117.34mA       204.10mA
+         1.50V        158.89mA       121.58mA       211.33mA
+         1.60V        163.86mA       125.34mA       217.80mA
+         1.70V        168.22mA       128.69mA       223.53mA
+         1.80V        172.10mA       131.60mA       228.52mA
+         1.90V        175.44mA       134.09mA       232.89mA
+         2.00V        178.29mA       136.17mA       236.61mA
+         2.10V        180.64mA       137.86mA       239.72mA
+         2.20V        182.51mA       139.16mA       242.23mA
+         2.30V        183.93mA       140.09mA       244.17mA
+         2.40V        184.74mA       140.56mA       244.87mA
+         2.50V        185.02mA       140.72mA       245.08mA
+         2.60V        185.14mA       140.80mA       245.26mA
+         2.70V        185.27mA       140.89mA       245.44mA
+         2.80V        185.39mA       140.98mA       245.62mA
+         2.90V        185.51mA       141.07mA       245.80mA
+         3.00V        185.63mA       141.15mA       245.98mA
+         3.10V        185.75mA       141.24mA       246.16mA
+         3.20V        185.88mA       141.33mA       246.34mA
+         3.30V        186.00mA       141.41mA       246.52mA
+         3.40V        186.12mA       141.50mA       246.70mA
+         3.50V        186.24mA       141.59mA       246.88mA
+         3.60V        186.36mA       141.68mA       247.06mA
+         3.70V        186.49mA       141.76mA       247.23mA
+         3.80V        186.61mA       141.85mA       247.41mA
+         3.90V        186.73mA       141.94mA       247.59mA
+         4.00V        186.85mA       142.03mA       247.77mA
+         4.10V        186.98mA       142.11mA       247.95mA
+         4.20V        187.10mA       142.20mA       248.13mA
+         4.30V        187.22mA       142.29mA       248.31mA
+         4.40V        187.34mA       142.38mA       248.49mA
+         4.50V        187.46mA       142.46mA       248.67mA
+         4.60V        187.59mA       142.55mA       248.85mA
+         4.70V        187.71mA       142.64mA       249.03mA
+         4.80V        187.83mA       142.73mA       249.21mA
+         4.90V        187.95mA       142.81mA       249.39mA
+         5.00V        188.07mA       142.90mA       249.57mA
+         5.10V        188.20mA       142.99mA       249.75mA
+         5.20V        188.32mA       143.03mA       249.93mA
+         5.30V        188.44mA       141.71mA       250.11mA
+         5.40V        188.56mA       124.60mA       250.29mA
+         5.50V        188.70mA       128.27mA       250.46mA
+         5.60V        189.11mA       137.75mA       250.64mA
+         5.70V        190.90mA       140.98mA       250.82mA
+         5.80V        190.07mA       142.21mA       251.01mA
+         5.90V        189.53mA       142.83mA       251.42mA
+         6.00V        189.46mA       143.22mA       254.22mA
+         6.10V        189.49mA       143.48mA       243.03mA
+         6.20V        189.60mA       143.66mA       249.36mA
+         6.30V        189.76mA       143.81mA       251.09mA
+         6.40V        189.85mA       143.94mA       251.72mA
+         6.50V        189.89mA       144.06mA       252.10mA
+         7.00V        190.53mA       144.59mA       253.10mA
+         7.50V        191.14mA       145.06mA       254.03mA
+         8.00V        191.75mA       145.51mA       254.93mA
+         8.50V        192.36mA       145.96mA       255.82mA
+         9.00V        192.97mA       146.40mA       256.72mA
+         9.50V        193.59mA       146.85mA       257.61mA
+        10.00V        194.20mA       147.35mA       258.49mA
+|
+[GND_clamp]
+|
+|       Voltage         I(typ)         I(min)         I(max)
+|
+        -5.00V        -81.60A        -78.35A        -84.80A
+        -4.80V        -77.63A        -74.58A        -80.62A
+        -4.60V        -73.66A        -70.81A        -76.45A
+        -4.40V        -69.69A        -67.05A        -72.27A
+        -4.20V        -65.72A        -63.28A        -68.10A
+        -4.00V        -61.76A        -59.52A        -63.93A
+        -3.80V        -57.80A        -55.76A        -59.77A
+        -3.60V        -53.83A        -52.00A        -55.60A
+        -3.40V        -49.88A        -48.25A        -51.44A
+        -3.20V        -45.92A        -44.50A        -47.28A
+        -3.00V        -41.97A        -40.75A        -43.13A
+        -2.80V        -38.03A        -37.01A        -38.98A
+        -2.60V        -34.09A        -33.28A        -34.84A
+        -2.40V        -30.16A        -29.55A        -30.70A
+        -2.20V        -26.24A        -25.83A        -26.57A
+        -2.00V        -22.33A        -22.13A        -22.45A
+        -1.95V        -21.35A        -21.20A        -21.43A
+        -1.90V        -20.38A        -20.28A        -20.40A
+        -1.85V        -19.40A        -19.36A        -19.38A
+        -1.80V        -18.43A        -18.44A        -18.35A
+        -1.75V        -17.46A        -17.52A        -17.33A
+        -1.70V        -16.49A        -16.60A        -16.31A
+        -1.65V        -15.53A        -15.69A        -15.29A
+        -1.60V        -14.56A        -14.77A        -14.28A
+        -1.55V        -13.60A        -13.86A        -13.26A
+        -1.50V        -12.64A        -12.95A        -12.25A
+        -1.45V        -11.69A        -12.05A        -11.25A
+        -1.40V        -10.73A        -11.14A        -10.24A
+        -1.35V         -9.79A        -10.25A         -9.24A
+        -1.30V         -8.84A         -9.35A         -8.25A
+        -1.25V         -7.91A         -8.47A         -7.26A
+        -1.20V         -6.97A         -7.58A         -6.28A
+        -1.15V         -6.06A         -6.71A         -5.32A
+        -1.10V         -5.14A         -5.84A         -4.36A
+        -1.05V         -4.26A         -4.99A         -3.45A
+        -1.00V         -3.38A         -4.15A         -2.53A
+      -950.00mV        -2.56A         -3.35A         -1.73A
+      -900.00mV        -1.74A         -2.55A       -927.49mA
+      -850.00mV        -1.11A         -1.84A       -500.98mA
+      -800.00mV      -472.49mA        -1.14A        -74.47mA
+      -750.00mV      -250.71mA      -682.11mA       -37.85mA
+      -700.00mV       -28.92mA      -226.02mA        -1.24mA
+      -650.00mV       -14.88mA      -120.15mA      -629.67uA
+      -600.00mV      -843.55uA       -14.28mA       -18.43uA
+      -550.00mV      -433.74uA        -7.47mA        -9.37uA
+      -500.00mV       -23.92uA      -655.44uA      -313.91nA
+      -450.00mV       -12.32uA      -342.67uA      -160.85nA
+      -400.00mV      -726.42nA       -29.90uA        -7.80nA
+      -350.00mV      -376.21nA       -15.66uA        -4.00nA
+      -300.00mV       -26.00nA        -1.42uA      -203.00pA
+      -250.00mV       -13.55nA      -743.97nA       -66.77pA
+      -200.00mV        -1.11nA       -72.29nA        69.47pA
+      -150.00mV      -529.54pA       -38.31nA        82.49pA
+      -100.00mV        46.78pA        -4.34nA        95.52pA
+       -50.00mV        56.18pA        -2.39nA        85.64pA
+         0.00V         65.57pA      -444.77pA        75.76pA
+         5.00V        250.28pA       584.72nA       101.06pA
+|
+[Pullup]
+|
+|       Voltage         I(typ)         I(min)         I(max)
+|
+        -5.00V        293.26uA       237.10uA       363.79uA
+        -4.50V        332.02uA       267.74uA       412.95uA
+        -4.00V        382.75uA       307.61uA       477.63uA
+        -3.50V        452.01uA       361.66uA       566.58uA
+        -3.00V        552.25uA       439.11uA       696.63uA
+        -2.50V        710.26uA       559.39uA       904.83uA
+        -2.00V        996.14uA       771.61uA         1.29mA
+        -1.50V          1.67mA         1.24mA         2.26mA
+        -1.40V          1.93mA         1.42mA         2.65mA
+        -1.30V          2.28mA         1.65mA         3.20mA
+        -1.20V          2.79mA         1.97mA         4.06mA
+        -1.10V          3.58mA         2.43mA         5.48mA
+        -1.00V          4.95mA         3.16mA         8.33mA
+      -900.00mV         7.80mA         4.47mA        15.88mA
+      -800.00mV        15.45mA         7.27mA        39.75mA
+      -700.00mV        30.04mA        14.11mA        47.11mA
+      -600.00mV        29.55mA        20.76mA        40.75mA
+      -500.00mV        24.78mA        18.56mA        34.01mA
+      -400.00mV        19.84mA        14.91mA        27.24mA
+      -300.00mV        14.89mA        11.19mA        20.44mA
+      -200.00mV         9.92mA         7.46mA        13.63mA
+      -100.00mV         4.96mA         3.72mA         6.81mA
+         0.00V         -4.64pA        -2.49pA        -9.81pA
+       100.00mV        -4.88mA        -3.66mA        -6.71mA
+       200.00mV        -9.62mA        -7.20mA       -13.24mA
+       300.00mV       -14.21mA       -10.63mA       -19.58mA
+       400.00mV       -18.66mA       -13.95mA       -25.73mA
+       500.00mV       -22.96mA       -17.15mA       -31.70mA
+       600.00mV       -27.12mA       -20.24mA       -37.48mA
+       700.00mV       -31.14mA       -23.21mA       -43.08mA
+       800.00mV       -35.02mA       -26.07mA       -48.49mA
+       900.00mV       -38.75mA       -28.82mA       -53.71mA
+         1.00V        -42.33mA       -31.45mA       -58.75mA
+         1.10V        -45.78mA       -33.97mA       -63.60mA
+         1.20V        -49.08mA       -36.37mA       -68.26mA
+         1.30V        -52.24mA       -38.66mA       -72.74mA
+         1.40V        -55.25mA       -40.84mA       -77.03mA
+         1.50V        -58.12mA       -42.89mA       -81.13mA
+         1.60V        -60.84mA       -44.83mA       -85.05mA
+         1.70V        -63.41mA       -46.67mA       -88.78mA
+         1.80V        -65.85mA       -48.39mA       -92.31mA
+         1.90V        -68.15mA       -50.00mA       -95.67mA
+         2.00V        -70.31mA       -51.49mA       -98.84mA
+         2.10V        -72.32mA       -52.87mA      -101.82mA
+         2.20V        -74.18mA       -54.14mA      -104.62mA
+         2.30V        -75.91mA       -55.29mA      -107.23mA
+         2.40V        -77.49mA       -56.33mA      -109.66mA
+         2.50V        -78.93mA       -57.26mA      -111.90mA
+         2.60V        -80.22mA       -58.07mA      -113.95mA
+         2.70V        -81.38mA       -58.77mA      -115.81mA
+         2.80V        -82.39mA       -59.36mA      -117.49mA
+         2.90V        -83.25mA       -59.84mA      -118.99mA
+         3.00V        -83.98mA       -60.20mA      -120.29mA
+         3.10V        -84.56mA       -60.45mA      -121.41mA
+         3.20V        -85.00mA       -60.93mA      -122.34mA
+         3.30V        -85.29mA       -61.63mA      -123.09mA
+         3.40V        -86.06mA       -62.14mA      -123.65mA
+         3.50V        -87.04mA       -62.55mA      -124.02mA
+         3.60V        -87.71mA       -62.91mA      -125.16mA
+         3.70V        -88.27mA       -63.24mA      -126.61mA
+         3.80V        -88.76mA       -63.54mA      -127.55mA
+         3.90V        -89.21mA       -63.83mA      -128.34mA
+         4.00V        -89.63mA       -64.11mA      -129.04mA
+         4.10V        -90.03mA       -64.37mA      -129.68mA
+         4.20V        -90.41mA       -64.63mA      -130.27mA
+         4.30V        -90.77mA       -64.87mA      -130.84mA
+         4.40V        -91.12mA       -65.12mA      -131.38mA
+         4.50V        -91.47mA       -65.35mA      -131.90mA
+         4.60V        -91.80mA       -65.58mA      -132.40mA
+         4.70V        -92.12mA       -65.81mA      -132.88mA
+         4.80V        -92.44mA       -66.03mA      -133.36mA
+         4.90V        -92.76mA       -66.25mA      -133.82mA
+         5.00V        -93.06mA       -66.47mA      -134.28mA
+         5.10V        -93.36mA       -66.68mA      -134.72mA
+         5.20V        -93.66mA       -66.85mA      -135.16mA
+         5.30V        -93.96mA       -65.88mA      -135.59mA
+         5.40V        -94.25mA       -34.84mA      -136.01mA
+         5.50V        -94.54mA         2.37mA      -136.43mA
+         5.60V        -95.16mA       -39.98mA      -136.84mA
+         5.70V        -99.92mA       -56.45mA      -137.24mA
+         5.80V       -100.43mA       -62.14mA      -137.65mA
+         5.90V        -97.41mA       -64.82mA      -138.29mA
+         6.00V        -96.60mA       -66.31mA      -147.24mA
+         6.10V        -96.41mA       -67.24mA      -111.66mA
+         6.20V        -96.68mA       -67.80mA      -127.37mA
+         6.30V        -97.12mA       -68.23mA      -136.16mA
+         6.40V        -97.23mA       -68.59mA      -138.51mA
+         6.50V        -97.17mA       -68.91mA      -139.72mA
+         7.00V        -98.57mA       -70.15mA      -142.03mA
+         7.50V        -99.82mA       -71.17mA      -143.95mA
+         8.00V       -101.05mA       -72.12mA      -145.74mA
+         8.50V       -102.27mA       -73.03mA      -147.48mA
+         9.00V       -103.47mA       -73.92mA      -149.19mA
+         9.50V       -104.65mA       -74.79mA      -150.87mA
+        10.00V       -105.82mA       -75.88mA      -152.50mA
+|
+[POWER_clamp]
+|
+|       Voltage         I(typ)         I(min)         I(max)
+|
+        -5.00V         24.20A         23.26A         25.12A
+        -4.80V         23.03A         22.15A         23.89A
+        -4.60V         21.86A         21.05A         22.66A
+        -4.40V         20.70A         19.94A         21.43A
+        -4.20V         19.53A         18.83A         20.21A
+        -4.00V         18.36A         17.72A         18.98A
+        -3.80V         17.20A         16.62A         17.76A
+        -3.60V         16.03A         15.51A         16.53A
+        -3.40V         14.87A         14.41A         15.31A
+        -3.20V         13.70A         13.30A         14.08A
+        -3.00V         12.54A         12.20A         12.86A
+        -2.80V         11.38A         11.10A         11.64A
+        -2.60V         10.22A         10.00A         10.42A
+        -2.40V          9.07A          8.91A          9.20A
+        -2.20V          7.91A          7.81A          7.99A
+        -2.00V          6.76A          6.72A          6.78A
+        -1.95V          6.47A          6.45A          6.48A
+        -1.90V          6.19A          6.18A          6.17A
+        -1.85V          5.90A          5.91A          5.87A
+        -1.80V          5.62A          5.64A          5.57A
+        -1.75V          5.33A          5.37A          5.27A
+        -1.70V          5.05A          5.09A          4.97A
+        -1.65V          4.76A          4.83A          4.67A
+        -1.60V          4.48A          4.56A          4.37A
+        -1.55V          4.19A          4.29A          4.07A
+        -1.50V          3.91A          4.02A          3.77A
+        -1.45V          3.63A          3.75A          3.48A
+        -1.40V          3.35A          3.49A          3.18A
+        -1.35V          3.07A          3.22A          2.89A
+        -1.30V          2.79A          2.96A          2.59A
+        -1.25V          2.51A          2.70A          2.30A
+        -1.20V          2.24A          2.43A          2.01A
+        -1.15V          1.97A          2.18A          1.73A
+        -1.10V          1.69A          1.92A          1.44A
+        -1.05V          1.43A          1.67A          1.17A
+        -1.00V          1.17A          1.41A        895.50mA
+      -950.00mV       918.59mA         1.17A        645.93mA
+      -900.00mV       669.94mA       929.86mA       396.35mA
+      -850.00mV       457.92mA       708.53mA       227.19mA
+      -800.00mV       245.89mA       487.19mA        58.03mA
+      -750.00mV       135.93mA       316.35mA        29.63mA
+      -700.00mV        25.96mA       145.51mA         1.22mA
+      -650.00mV        13.40mA        79.52mA       620.48uA
+      -600.00mV       834.22uA        13.53mA        17.66uA
+      -550.00mV       428.67uA         7.09mA         8.96uA
+      -500.00mV        23.11uA       648.26uA       252.34nA
+      -450.00mV        11.88uA       338.64uA       127.94nA
+      -400.00mV       637.25nA        29.02uA         3.53nA
+      -350.00mV       327.37nA        15.16uA         1.73nA
+      -300.00mV        17.48nA         1.30uA       -62.26pA
+      -250.00mV         8.94nA       676.72nA       -67.08pA
+      -200.00mV       402.30pA        58.38nA       -71.91pA
+      -150.00mV       165.68pA        30.80nA       -90.10pA
+      -100.00mV       -70.94pA         3.22nA      -108.29pA
+       -50.00mV       -72.75pA         1.98nA       -87.50pA
+         0.00V        -74.56pA       734.69pA       -66.70pA
+|
+|*********************************************************************
+|
+[Ramp]
+|
+|                typ                 min                 max
+|
+dV/dt_r      1.95V/903.86ps      1.64V/1.29ns        2.27V/541.37ps
+dV/dt_f      2.61V/1.18ns        2.36V/1.39ns        2.84V/854.23ps
+|
+|*********************************************************************
+|
+[Model]        PCEBB16160A0S2AZZRUC
+Model_type     I/O
+|
+Vinl = 0.80V
+Vinh = 2.00V
+|
+|                    typ                 min                 max
+|
+C_comp               2.30pF              1.24pF              4.28pF
+[Voltage range]      5.000V              4.750V              5.250V
+|
+|*********************************************************************
+|
+[Pulldown]
+|
+|       Voltage         I(typ)         I(min)         I(max)
+|
+        -5.00V       -602.67uA      -494.84uA      -728.25uA
+        -4.50V       -681.93uA      -558.25uA      -826.48uA
+        -4.00V       -785.43uA      -640.56uA      -955.57uA
+        -3.50V       -926.35uA      -751.74uA        -1.13mA
+        -3.00V         -1.13mA      -910.23uA        -1.39mA
+        -2.50V         -1.45mA        -1.15mA        -1.80mA
+        -2.00V         -2.02mA        -1.58mA        -2.57mA
+        -1.50V         -3.33mA        -2.50mA        -4.44mA
+        -1.40V         -3.82mA        -2.83mA        -5.19mA
+        -1.30V         -4.48mA        -3.26mA        -6.24mA
+        -1.20V         -5.43mA        -3.84mA        -7.83mA
+        -1.10V         -6.84mA        -4.67mA       -10.43mA
+        -1.00V         -9.21mA        -5.93mA       -15.43mA
+      -900.00mV       -13.79mA        -8.05mA       -27.84mA
+      -800.00mV       -25.05mA       -12.19mA       -67.49mA
+      -700.00mV       -53.38mA       -21.96mA       -95.94mA
+      -600.00mV       -63.55mA       -39.96mA       -85.32mA
+      -500.00mV       -54.69mA       -41.71mA       -72.32mA
+      -400.00mV       -44.46mA       -34.36mA       -58.84mA
+      -300.00mV       -33.87mA       -26.17mA       -44.88mA
+      -200.00mV       -22.93mA       -17.70mA       -30.44mA
+      -100.00mV       -11.65mA        -8.98mA       -15.49mA
+         0.00V          6.19pA        20.31pA         7.59pA
+       100.00mV        11.52mA         8.87mA        15.33mA
+       200.00mV        22.42mA        17.27mA        29.82mA
+       300.00mV        32.73mA        25.21mA        43.50mA
+       400.00mV        42.46mA        32.72mA        56.38mA
+       500.00mV        51.63mA        39.79mA        68.50mA
+       600.00mV        60.24mA        46.44mA        79.87mA
+       700.00mV        68.32mA        52.67mA        90.51mA
+       800.00mV        75.88mA        58.50mA       100.46mA
+       900.00mV        82.93mA        63.94mA       109.73mA
+         1.00V         89.49mA        68.99mA       118.34mA
+         1.10V         95.57mA        73.67mA       126.31mA
+         1.20V        101.18mA        77.98mA       133.67mA
+         1.30V        106.34mA        81.94mA       140.44mA
+         1.40V        111.06mA        85.55mA       146.62mA
+         1.50V        115.35mA        88.81mA       152.25mA
+         1.60V        119.22mA        91.72mA       157.34mA
+         1.70V        122.65mA        94.33mA       161.90mA
+         1.80V        125.73mA        96.63mA       165.93mA
+         1.90V        128.43mA        98.62mA       169.50mA
+         2.00V        130.75mA       100.32mA       172.61mA
+         2.10V        132.72mA       101.72mA       175.26mA
+         2.20V        134.33mA       102.83mA       177.46mA
+         2.30V        135.60mA       103.67mA       179.24mA
+         2.40V        136.54mA       104.23mA       180.57mA
+         2.50V        136.98mA       104.43mA       181.00mA
+         2.60V        137.11mA       104.50mA       181.13mA
+         2.70V        137.20mA       104.57mA       181.26mA
+         2.80V        137.29mA       104.63mA       181.40mA
+         2.90V        137.38mA       104.69mA       181.53mA
+         3.00V        137.47mA       104.76mA       181.66mA
+         3.10V        137.56mA       104.82mA       181.80mA
+         3.20V        137.65mA       104.89mA       181.93mA
+         3.30V        137.74mA       104.95mA       182.06mA
+         3.40V        137.83mA       105.02mA       182.19mA
+         3.50V        137.92mA       105.08mA       182.33mA
+         3.60V        138.01mA       105.15mA       182.46mA
+         3.70V        138.11mA       105.21mA       182.59mA
+         3.80V        138.20mA       105.28mA       182.72mA
+         3.90V        138.29mA       105.34mA       182.86mA
+         4.00V        138.38mA       105.41mA       182.99mA
+         4.10V        138.47mA       105.47mA       183.12mA
+         4.20V        138.56mA       105.54mA       183.26mA
+         4.30V        138.65mA       105.60mA       183.39mA
+         4.40V        138.74mA       105.67mA       183.52mA
+         4.50V        138.83mA       105.73mA       183.65mA
+         4.60V        138.92mA       105.80mA       183.79mA
+         4.70V        139.01mA       105.86mA       183.92mA
+         4.80V        139.10mA       105.93mA       184.05mA
+         4.90V        139.19mA       105.99mA       184.18mA
+         5.00V        139.28mA       106.06mA       184.31mA
+         5.10V        139.37mA       106.12mA       184.45mA
+         5.20V        139.46mA       106.09mA       184.58mA
+         5.30V        139.55mA       103.14mA       184.71mA
+         5.40V        139.64mA        96.47mA       184.84mA
+         5.50V        139.75mA       102.17mA       184.98mA
+         5.60V        140.24mA       104.76mA       185.11mA
+         5.70V        140.75mA       105.65mA       185.24mA
+         5.80V        140.29mA       106.08mA       185.38mA
+         5.90V        140.19mA       106.32mA       185.93mA
+         6.00V        140.24mA       106.49mA       184.81mA
+         6.10V        140.31mA       106.62mA       183.08mA
+         6.20V        140.39mA       106.72mA       185.21mA
+         6.30V        140.49mA       106.81mA       185.77mA
+         6.40V        140.57mA       106.90mA       186.03mA
+         6.50V        140.64mA       106.97mA       186.24mA
+         7.00V        141.10mA       107.33mA       186.94mA
+         7.50V        141.55mA       107.67mA       187.61mA
+         8.00V        142.00mA       108.00mA       188.27mA
+         8.50V        142.46mA       108.34mA       188.93mA
+         9.00V        142.91mA       108.66mA       189.59mA
+         9.50V        143.37mA       108.99mA       190.25mA
+        10.00V        143.82mA       109.35mA       190.91mA
+|
+[GND_clamp]
+|
+|       Voltage         I(typ)         I(min)         I(max)
+|
+        -5.00V         -8.95A         -8.62A         -9.27A
+        -4.80V         -8.52A         -8.21A         -8.82A
+        -4.60V         -8.09A         -7.80A         -8.37A
+        -4.40V         -7.67A         -7.40A         -7.93A
+        -4.20V         -7.24A         -6.99A         -7.48A
+        -4.00V         -6.81A         -6.59A         -7.03A
+        -3.80V         -6.39A         -6.19A         -6.58A
+        -3.60V         -5.96A         -5.78A         -6.13A
+        -3.40V         -5.54A         -5.38A         -5.69A
+        -3.20V         -5.11A         -4.97A         -5.24A
+        -3.00V         -4.69A         -4.57A         -4.79A
+        -2.80V         -4.26A         -4.17A         -4.34A
+        -2.60V         -3.84A         -3.77A         -3.90A
+        -2.40V         -3.41A         -3.37A         -3.45A
+        -2.20V         -2.99A         -2.97A         -3.01A
+        -2.00V         -2.57A         -2.57A         -2.57A
+        -1.95V         -2.47A         -2.47A         -2.46A
+        -1.90V         -2.36A         -2.37A         -2.35A
+        -1.85V         -2.26A         -2.27A         -2.24A
+        -1.80V         -2.15A         -2.17A         -2.12A
+        -1.75V         -2.05A         -2.07A         -2.01A
+        -1.70V         -1.94A         -1.97A         -1.90A
+        -1.65V         -1.84A         -1.87A         -1.80A
+        -1.60V         -1.73A         -1.77A         -1.69A
+        -1.55V         -1.63A         -1.67A         -1.58A
+        -1.50V         -1.53A         -1.58A         -1.47A
+        -1.45V         -1.42A         -1.48A         -1.36A
+        -1.40V         -1.32A         -1.38A         -1.25A
+        -1.35V         -1.22A         -1.28A         -1.14A
+        -1.30V         -1.12A         -1.19A         -1.03A
+        -1.25V         -1.01A         -1.09A       -927.24mA
+        -1.20V       -913.06mA      -994.01mA      -820.49mA
+        -1.15V       -812.95mA      -898.85mA      -715.45mA
+        -1.10V       -712.84mA      -803.68mA      -610.41mA
+        -1.05V       -614.93mA      -710.22mA      -508.33mA
+        -1.00V       -517.02mA      -616.77mA      -406.24mA
+      -950.00mV      -423.02mA      -526.06mA      -310.33mA
+      -900.00mV      -329.03mA      -435.35mA      -214.41mA
+      -850.00mV      -243.48mA      -349.64mA      -136.23mA
+      -800.00mV      -157.94mA      -263.93mA       -58.06mA
+      -750.00mV       -96.13mA      -189.21mA       -30.21mA
+      -700.00mV       -34.32mA      -114.50mA        -2.37mA
+      -650.00mV       -17.98mA       -67.83mA        -1.20mA
+      -600.00mV        -1.64mA       -21.16mA       -35.86uA
+      -550.00mV      -841.55uA       -11.22mA       -18.20uA
+      -500.00mV       -46.79uA        -1.28mA      -550.53nA
+      -450.00mV       -24.07uA      -669.38uA      -280.42nA
+      -400.00mV        -1.34uA       -58.64uA       -10.31nA
+      -350.00mV      -691.24nA       -30.66uA        -5.24nA
+      -300.00mV       -41.43nA        -2.68uA      -167.49pA
+      -250.00mV       -21.40nA        -1.40uA       -41.17pA
+      -200.00mV        -1.37nA      -126.91nA        85.14pA
+      -150.00mV      -667.20pA       -66.93nA       101.52pA
+      -100.00mV        31.56pA        -6.96nA       117.91pA
+       -50.00mV        72.60pA        -3.98nA       102.96pA
+         0.00V        113.64pA      -994.12pA        88.02pA
+         5.00V        292.48pA         1.17uA       139.72pA
+|
+[Pullup]
+|
+|       Voltage         I(typ)         I(min)         I(max)
+|
+        -5.00V        388.20uA       311.29uA       484.34uA
+        -4.50V        438.92uA       350.92uA       549.23uA
+        -4.00V        505.10uA       402.32uA       634.44uA
+        -3.50V        595.13uA       471.67uA       751.28uA
+        -3.00V        724.73uA       570.44uA       921.41uA
+        -2.50V        927.46uA       722.40uA         1.19mA
+        -2.00V          1.29mA       986.53uA         1.69mA
+        -1.50V          2.12mA         1.56mA         2.90mA
+        -1.40V          2.43mA         1.76mA         3.38mA
+        -1.30V          2.85mA         2.03mA         4.06mA
+        -1.20V          3.44mA         2.39mA         5.07mA
+        -1.10V          4.32mA         2.90mA         6.71mA
+        -1.00V          5.79mA         3.67mA         9.81mA
+      -900.00mV         8.62mA         4.98mA        17.30mA
+      -800.00mV        15.51mA         7.53mA        41.83mA
+      -700.00mV        33.37mA        13.55mA        62.81mA
+      -600.00mV        39.93mA        24.64mA        55.18mA
+      -500.00mV        33.88mA        25.31mA        46.05mA
+      -400.00mV        27.14mA        20.53mA        36.86mA
+      -300.00mV        20.36mA        15.41mA        27.65mA
+      -200.00mV        13.57mA        10.27mA        18.43mA
+      -100.00mV         6.78mA         5.13mA         9.21mA
+         0.00V        -23.90pA       -26.73pA       -23.46pA
+       100.00mV        -6.67mA        -5.04mA        -9.08mA
+       200.00mV       -13.16mA        -9.93mA       -17.92mA
+       300.00mV       -19.45mA       -14.67mA       -26.53mA
+       400.00mV       -25.56mA       -19.25mA       -34.90mA
+       500.00mV       -31.49mA       -23.68mA       -43.03mA
+       600.00mV       -37.22mA       -27.96mA       -50.93mA
+       700.00mV       -42.76mA       -32.09mA       -58.58mA
+       800.00mV       -48.12mA       -36.06mA       -65.99mA
+       900.00mV       -53.28mA       -39.88mA       -73.16mA
+         1.00V        -58.25mA       -43.55mA       -80.09mA
+         1.10V        -63.03mA       -47.06mA       -86.78mA
+         1.20V        -67.62mA       -50.42mA       -93.22mA
+         1.30V        -72.02mA       -53.62mA       -99.41mA
+         1.40V        -76.23mA       -56.67mA      -105.37mA
+         1.50V        -80.24mA       -59.56mA      -111.07mA
+         1.60V        -84.06mA       -62.29mA      -116.53mA
+         1.70V        -87.67mA       -64.87mA      -121.73mA
+         1.80V        -91.10mA       -67.30mA      -126.68mA
+         1.90V        -94.34mA       -69.58mA      -131.39mA
+         2.00V        -97.38mA       -71.69mA      -135.85mA
+         2.10V       -100.23mA       -73.65mA      -140.07mA
+         2.20V       -102.88mA       -75.46mA      -144.03mA
+         2.30V       -105.34mA       -77.11mA      -147.74mA
+         2.40V       -107.60mA       -78.60mA      -151.20mA
+         2.50V       -109.67mA       -79.93mA      -154.40mA
+         2.60V       -111.53mA       -81.11mA      -157.35mA
+         2.70V       -113.20mA       -82.13mA      -160.05mA
+         2.80V       -114.68mA       -82.99mA      -162.49mA
+         2.90V       -115.95mA       -83.70mA      -164.68mA
+         3.00V       -117.03mA       -84.24mA      -166.61mA
+         3.10V       -117.91mA       -84.63mA      -168.28mA
+         3.20V       -118.59mA       -84.86mA      -169.69mA
+         3.30V       -119.07mA       -86.10mA      -170.85mA
+         3.40V       -119.78mA       -86.89mA      -171.75mA
+         3.50V       -121.20mA       -87.48mA      -172.39mA
+         3.60V       -122.23mA       -88.00mA      -172.80mA
+         3.70V       -123.05mA       -88.46mA      -175.37mA
+         3.80V       -123.75mA       -88.89mA      -176.86mA
+         3.90V       -124.39mA       -89.30mA      -178.01mA
+         4.00V       -124.98mA       -89.68mA      -179.02mA
+         4.10V       -125.54mA       -90.06mA      -179.93mA
+         4.20V       -126.07mA       -90.41mA      -180.77mA
+         4.30V       -126.58mA       -90.76mA      -181.57mA
+         4.40V       -127.07mA       -91.10mA      -182.32mA
+         4.50V       -127.55mA       -91.43mA      -183.04mA
+         4.60V       -128.01mA       -91.75mA      -183.74mA
+         4.70V       -128.46mA       -92.07mA      -184.42mA
+         4.80V       -128.91mA       -92.38mA      -185.08mA
+         4.90V       -129.34mA       -92.69mA      -185.72mA
+         5.00V       -129.77mA       -92.99mA      -186.34mA
+         5.10V       -130.19mA       -93.28mA      -186.96mA
+         5.20V       -130.60mA       -93.47mA      -187.56mA
+         5.30V       -131.01mA       -90.86mA      -188.16mA
+         5.40V       -131.41mA       -86.42mA      -188.74mA
+         5.50V       -131.83mA       -91.27mA      -189.32mA
+         5.60V       -132.58mA       -93.43mA      -189.88mA
+         5.70V       -133.24mA       -94.33mA      -190.44mA
+         5.80V       -133.19mA       -94.89mA      -191.01mA
+         5.90V       -133.43mA       -95.30mA      -191.95mA
+         6.00V       -133.78mA       -95.65mA      -191.05mA
+         6.10V       -134.13mA       -95.97mA      -190.61mA
+         6.20V       -134.50mA       -96.27mA      -192.63mA
+         6.30V       -134.88mA       -96.56mA      -193.49mA
+         6.40V       -135.24mA       -96.83mA      -194.11mA
+         6.50V       -135.58mA       -97.11mA      -194.68mA
+         7.00V       -137.37mA       -98.43mA      -197.26mA
+         7.50V       -139.12mA       -99.71mA      -199.75mA
+         8.00V       -140.83mA      -100.96mA      -202.17mA
+         8.50V       -142.51mA      -102.19mA      -204.54mA
+         9.00V       -144.17mA      -103.41mA      -206.88mA
+         9.50V       -145.81mA      -104.61mA      -209.19mA
+        10.00V       -147.44mA      -105.83mA      -211.47mA
+|
+[POWER_clamp]
+|
+|       Voltage         I(typ)         I(min)         I(max)
+|
+        -5.00V         11.08A         10.67A         11.48A
+        -4.80V         10.55A         10.16A         10.93A
+        -4.60V         10.02A          9.66A         10.37A
+        -4.40V          9.49A          9.16A          9.81A
+        -4.20V          8.96A          8.66A          9.26A
+        -4.00V          8.43A          8.15A          8.70A
+        -3.80V          7.91A          7.65A          8.15A
+        -3.60V          7.38A          7.15A          7.59A
+        -3.40V          6.85A          6.65A          7.04A
+        -3.20V          6.32A          6.15A          6.48A
+        -3.00V          5.79A          5.65A          5.93A
+        -2.80V          5.27A          5.15A          5.37A
+        -2.60V          4.74A          4.65A          4.82A
+        -2.40V          4.22A          4.16A          4.27A
+        -2.20V          3.70A          3.66A          3.72A
+        -2.00V          3.17A          3.16A          3.17A
+        -1.95V          3.04A          3.04A          3.03A
+        -1.90V          2.91A          2.92A          2.89A
+        -1.85V          2.78A          2.80A          2.76A
+        -1.80V          2.65A          2.67A          2.62A
+        -1.75V          2.52A          2.55A          2.48A
+        -1.70V          2.39A          2.43A          2.35A
+        -1.65V          2.26A          2.30A          2.21A
+        -1.60V          2.14A          2.18A          2.08A
+        -1.55V          2.01A          2.06A          1.94A
+        -1.50V          1.88A          1.94A          1.81A
+        -1.45V          1.75A          1.82A          1.67A
+        -1.40V          1.62A          1.70A          1.54A
+        -1.35V          1.50A          1.58A          1.40A
+        -1.30V          1.37A          1.45A          1.27A
+        -1.25V          1.24A          1.34A          1.14A
+        -1.20V          1.12A          1.22A          1.00A
+        -1.15V        993.19mA         1.10A        873.98mA
+        -1.10V        869.18mA       980.36mA       743.87mA
+        -1.05V        747.99mA       864.66mA       617.54mA
+        -1.00V        626.79mA       748.96mA       491.22mA
+      -950.00mV       510.65mA       636.79mA       372.88mA
+      -900.00mV       394.50mA       524.62mA       254.54mA
+      -850.00mV       289.42mA       418.96mA       159.65mA
+      -800.00mV       184.34mA       313.29mA        64.76mA
+      -750.00mV       110.65mA       222.14mA        33.57mA
+      -700.00mV        36.97mA       130.99mA         2.38mA
+      -650.00mV        19.31mA        76.60mA         1.21mA
+      -600.00mV         1.64mA        22.21mA        35.30uA
+      -550.00mV       843.25uA        11.75mA        17.90uA
+      -500.00mV        46.20uA         1.28mA       504.59nA
+      -450.00mV        23.74uA       669.43uA       255.85nA
+      -400.00mV         1.27uA        58.00uA         7.11nA
+      -350.00mV       654.71nA        30.29uA         3.54nA
+      -300.00mV        35.03nA         2.59uA       -36.47pA
+      -250.00mV        17.94nA         1.35uA       -64.40pA
+      -200.00mV       844.38pA       116.47nA       -92.33pA
+      -150.00mV       389.12pA        61.30nA      -112.08pA
+      -100.00mV       -66.13pA         6.12nA      -131.82pA
+       -50.00mV       -89.67pA         3.66nA      -108.69pA
+         0.00V       -113.22pA         1.20nA       -85.56pA
+|
+|*********************************************************************
+|
+[Ramp]
+|
+|                typ                 min                 max
+|
+dV/dt_r      2.20V/325.49ps      1.92V/481.82ps      2.49V/210.50ps
+dV/dt_f      2.46V/518.73ps      2.22V/886.64ps      2.70V/300.17ps
+|
+|*********************************************************************
+|
+[Model]        PCEBI00000A0S2AZZNMC
+Model_type     Input
+|
+Vinl = 0.80V
+Vinh = 2.00V
+|
+|                    typ                 min                 max
+|
+C_comp               2.30pF              1.24pF              4.28pF
+[Voltage range]      5.000V              4.750V              5.250V
+|
+|*********************************************************************
+|
+[GND_clamp]
+|
+|       Voltage         I(typ)         I(min)         I(max)
+|
+        -5.00V         -6.39A         -6.15A         -6.62A
+        -4.80V         -6.08A         -5.86A         -6.30A
+        -4.60V         -5.78A         -5.57A         -5.98A
+        -4.40V         -5.47A         -5.28A         -5.66A
+        -4.20V         -5.16A         -4.99A         -5.34A
+        -4.00V         -4.86A         -4.70A         -5.01A
+        -3.80V         -4.55A         -4.41A         -4.69A
+        -3.60V         -4.25A         -4.12A         -4.37A
+        -3.40V         -3.95A         -3.83A         -4.05A
+        -3.20V         -3.64A         -3.54A         -3.73A
+        -3.00V         -3.34A         -3.25A         -3.41A
+        -2.80V         -3.03A         -2.97A         -3.09A
+        -2.60V         -2.73A         -2.68A         -2.78A
+        -2.40V         -2.43A         -2.39A         -2.46A
+        -2.20V         -2.13A         -2.10A         -2.14A
+        -2.00V         -1.82A         -1.82A         -1.82A
+        -1.95V         -1.75A         -1.75A         -1.74A
+        -1.90V         -1.67A         -1.68A         -1.66A
+        -1.85V         -1.60A         -1.61A         -1.59A
+        -1.80V         -1.52A         -1.54A         -1.51A
+        -1.75V         -1.45A         -1.46A         -1.43A
+        -1.70V         -1.38A         -1.39A         -1.35A
+        -1.65V         -1.30A         -1.32A         -1.27A
+        -1.60V         -1.23A         -1.25A         -1.19A
+        -1.55V         -1.15A         -1.18A         -1.11A
+        -1.50V         -1.08A         -1.11A         -1.04A
+        -1.45V         -1.00A         -1.04A       -958.66mA
+        -1.40V       -930.38mA      -971.89mA      -880.98mA
+        -1.35V       -857.12mA      -902.43mA      -803.86mA
+        -1.30V       -783.87mA      -832.98mA      -726.75mA
+        -1.25V       -711.33mA      -764.15mA      -650.47mA
+        -1.20V       -638.80mA      -695.32mA      -574.19mA
+        -1.15V       -567.31mA      -627.36mA      -499.18mA
+        -1.10V       -495.81mA      -559.39mA      -424.16mA
+        -1.05V       -425.98mA      -492.72mA      -351.39mA
+        -1.00V       -356.14mA      -426.04mA      -278.61mA
+      -950.00mV      -289.30mA      -361.45mA      -210.58mA
+      -900.00mV      -222.46mA      -296.86mA      -142.54mA
+      -850.00mV      -162.24mA      -236.15mA       -88.64mA
+      -800.00mV      -102.02mA      -175.43mA       -34.73mA
+      -750.00mV       -60.69mA      -123.46mA       -17.96mA
+      -700.00mV       -19.37mA       -71.48mA        -1.20mA
+      -650.00mV       -10.10mA       -41.47mA      -609.84uA
+      -600.00mV      -825.82uA       -11.45mA       -18.06uA
+      -550.00mV      -424.68uA        -6.05mA        -9.17uA
+      -500.00mV       -23.54uA      -644.61uA      -285.57nA
+      -450.00mV       -12.11uA      -337.04uA      -145.72nA
+      -400.00mV      -685.43nA       -29.48uA        -5.87nA
+      -350.00mV      -353.78nA       -15.42uA        -2.99nA
+      -300.00mV       -22.13nA        -1.36uA      -115.62pA
+      -250.00mV       -11.46nA      -712.97nA       -35.62pA
+      -200.00mV      -792.68pA       -65.82nA        44.37pA
+      -150.00mV      -388.82pA       -34.76nA        56.65pA
+      -100.00mV        15.04pA        -3.71nA        68.92pA
+       -50.00mV        38.87pA        -2.10nA        58.18pA
+         0.00V         62.70pA      -488.48pA        47.43pA
+         5.00V        222.41pA       584.29nA        78.76pA
+|
+[POWER_clamp]
+|
+|       Voltage         I(typ)         I(min)         I(max)
+|
+        -5.00V          5.54A          5.33A          5.74A
+        -4.80V          5.28A          5.08A          5.46A
+        -4.60V          5.01A          4.83A          5.19A
+        -4.40V          4.75A          4.58A          4.91A
+        -4.20V          4.48A          4.33A          4.63A
+        -4.00V          4.22A          4.08A          4.35A
+        -3.80V          3.95A          3.83A          4.07A
+        -3.60V          3.69A          3.58A          3.80A
+        -3.40V          3.42A          3.33A          3.52A
+        -3.20V          3.16A          3.08A          3.24A
+        -3.00V          2.90A          2.83A          2.96A
+        -2.80V          2.63A          2.58A          2.69A
+        -2.60V          2.37A          2.33A          2.41A
+        -2.40V          2.11A          2.08A          2.13A
+        -2.20V          1.85A          1.83A          1.86A
+        -2.00V          1.59A          1.58A          1.58A
+        -1.95V          1.52A          1.52A          1.52A
+        -1.90V          1.46A          1.46A          1.45A
+        -1.85V          1.39A          1.40A          1.38A
+        -1.80V          1.33A          1.34A          1.31A
+        -1.75V          1.26A          1.27A          1.24A
+        -1.70V          1.20A          1.21A          1.17A
+        -1.65V          1.13A          1.15A          1.11A
+        -1.60V          1.07A          1.09A          1.04A
+        -1.55V          1.00A          1.03A        970.41mA
+        -1.50V        939.30mA       969.08mA       902.71mA
+        -1.45V        875.35mA       908.47mA       835.37mA
+        -1.40V        811.40mA       847.86mA       768.03mA
+        -1.35V        747.89mA       787.64mA       701.18mA
+        -1.30V        684.39mA       727.43mA       634.33mA
+        -1.25V        621.49mA       667.75mA       568.19mA
+        -1.20V        558.60mA       608.07mA       502.05mA
+        -1.15V        496.60mA       549.12mA       436.99mA
+        -1.10V        434.59mA       490.18mA       371.93mA
+        -1.05V        373.99mA       432.33mA       308.77mA
+        -1.00V        313.40mA       374.48mA       245.61mA
+      -950.00mV       255.32mA       318.40mA       186.44mA
+      -900.00mV       197.25mA       262.31mA       127.27mA
+      -850.00mV       144.71mA       209.48mA        79.82mA
+      -800.00mV        92.17mA       156.64mA        32.38mA
+      -750.00mV        55.33mA       111.07mA        16.79mA
+      -700.00mV        18.49mA        65.49mA         1.19mA
+      -650.00mV         9.65mA        38.30mA       604.77uA
+      -600.00mV       820.15uA        11.11mA        17.65uA
+      -550.00mV       421.62uA         5.87mA         8.95uA
+      -500.00mV        23.10uA       640.32uA       252.28nA
+      -450.00mV        11.87uA       334.66uA       127.92nA
+      -400.00mV       637.18nA        29.00uA         3.55nA
+      -350.00mV       327.35nA        15.15uA         1.76nA
+      -300.00mV        17.51nA         1.29uA       -27.61pA
+      -250.00mV         8.96nA       676.56nA       -41.15pA
+      -200.00mV       414.43pA        58.28nA       -54.69pA
+      -150.00mV       187.47pA        30.69nA       -64.97pA
+      -100.00mV       -39.50pA         3.10nA       -75.25pA
+       -50.00mV       -51.95pA         1.87nA       -63.26pA
+         0.00V        -64.40pA       638.58pA       -51.27pA
+|
+|*********************************************************************
+|
+[Ramp]
+|
+|                typ                 min                 max
+|
+dV/dt_r      0.00V/0.00s         0.00V/0.00s         0.00V/0.00s
+dV/dt_f      0.00V/0.00s         0.00V/0.00s         0.00V/0.00s
+|
+|*********************************************************************
+|
+[Model]        PCEBT08080AXXXXZZKMB
+Model_type     3-state
+|
+|                    typ                 min                 max
+|
+C_comp               1.50pF              0.81pF              2.79pF
+[Voltage range]      5.000V              4.750V              5.250V
+|
+|*********************************************************************
+|
+[Pulldown]
+|
+|       Voltage         I(typ)         I(min)         I(max)
+|
+        -5.00V       -301.34uA      -247.42uA      -364.12uA
+        -4.50V       -340.96uA      -279.12uA      -413.24uA
+        -4.00V       -392.71uA      -320.28uA      -477.79uA
+        -3.50V       -463.18uA      -375.87uA      -566.43uA
+        -3.00V       -564.76uA      -455.12uA      -695.75uA
+        -2.50V       -723.96uA      -577.24uA      -902.04uA
+        -2.00V         -1.01mA      -789.86uA        -1.28mA
+        -1.50V         -1.66mA        -1.25mA        -2.22mA
+        -1.40V         -1.91mA        -1.42mA        -2.59mA
+        -1.30V         -2.24mA        -1.63mA        -3.12mA
+        -1.20V         -2.71mA        -1.92mA        -3.91mA
+        -1.10V         -3.42mA        -2.34mA        -5.22mA
+        -1.00V         -4.60mA        -2.96mA        -7.71mA
+      -900.00mV        -6.90mA        -4.02mA       -13.92mA
+      -800.00mV       -12.53mA        -6.09mA       -33.75mA
+      -700.00mV       -26.69mA       -10.98mA       -47.97mA
+      -600.00mV       -31.77mA       -19.98mA       -42.66mA
+      -500.00mV       -27.35mA       -20.86mA       -36.16mA
+      -400.00mV       -22.23mA       -17.18mA       -29.42mA
+      -300.00mV       -16.93mA       -13.08mA       -22.44mA
+      -200.00mV       -11.47mA        -8.85mA       -15.22mA
+      -100.00mV        -5.82mA        -4.49mA        -7.74mA
+         0.00V          3.09pA        10.15pA         3.80pA
+       100.00mV         5.76mA         4.43mA         7.67mA
+       200.00mV        11.21mA         8.63mA        14.91mA
+       300.00mV        16.37mA        12.61mA        21.75mA
+       400.00mV        21.23mA        16.36mA        28.19mA
+       500.00mV        25.81mA        19.89mA        34.25mA
+       600.00mV        30.12mA        23.22mA        39.93mA
+       700.00mV        34.16mA        26.34mA        45.26mA
+       800.00mV        37.94mA        29.25mA        50.23mA
+       900.00mV        41.47mA        31.97mA        54.86mA
+         1.00V         44.75mA        34.50mA        59.17mA
+         1.10V         47.79mA        36.84mA        63.16mA
+         1.20V         50.59mA        38.99mA        66.84mA
+         1.30V         53.17mA        40.97mA        70.22mA
+         1.40V         55.53mA        42.77mA        73.31mA
+         1.50V         57.68mA        44.41mA        76.13mA
+         1.60V         59.61mA        45.88mA        78.67mA
+         1.70V         61.35mA        47.18mA        80.96mA
+         1.80V         62.89mA        48.33mA        82.99mA
+         1.90V         64.24mA        49.33mA        84.77mA
+         2.00V         65.40mA        50.17mA        86.33mA
+         2.10V         66.38mA        50.87mA        87.65mA
+         2.20V         67.18mA        51.43mA        88.75mA
+         2.30V         67.82mA        51.85mA        89.64mA
+         2.40V         68.29mA        52.13mA        90.32mA
+         2.50V         68.51mA        52.22mA        90.50mA
+         2.60V         68.56mA        52.25mA        90.57mA
+         2.70V         68.60mA        52.28mA        90.63mA
+         2.80V         68.65mA        52.31mA        90.70mA
+         2.90V         68.69mA        52.35mA        90.76mA
+         3.00V         68.74mA        52.38mA        90.83mA
+         3.10V         68.78mA        52.41mA        90.90mA
+         3.20V         68.83mA        52.44mA        90.96mA
+         3.30V         68.87mA        52.48mA        91.03mA
+         3.40V         68.92mA        52.51mA        91.10mA
+         3.50V         68.96mA        52.54mA        91.16mA
+         3.60V         69.01mA        52.57mA        91.23mA
+         3.70V         69.05mA        52.61mA        91.30mA
+         3.80V         69.10mA        52.64mA        91.36mA
+         3.90V         69.14mA        52.67mA        91.43mA
+         4.00V         69.19mA        52.70mA        91.49mA
+         4.10V         69.23mA        52.74mA        91.56mA
+         4.20V         69.28mA        52.77mA        91.63mA
+         4.30V         69.32mA        52.80mA        91.69mA
+         4.40V         69.37mA        52.83mA        91.76mA
+         4.50V         69.41mA        52.87mA        91.83mA
+         4.60V         69.46mA        52.90mA        91.89mA
+         4.70V         69.50mA        52.93mA        91.96mA
+         4.80V         69.55mA        52.96mA        92.03mA
+         4.90V         69.60mA        53.00mA        92.09mA
+         5.00V         69.64mA        53.03mA        92.16mA
+         5.10V         69.69mA        53.05mA        92.22mA
+         5.20V         69.73mA        52.90mA        92.29mA
+         5.30V         69.78mA        50.13mA        92.36mA
+         5.40V         69.82mA        46.57mA        92.42mA
+         5.50V         69.87mA        50.46mA        92.49mA
+         5.60V         69.91mA        52.10mA        92.55mA
+         5.70V         69.96mA        52.68mA        92.62mA
+         5.80V         70.00mA        52.95mA        92.68mA
+         5.90V         70.04mA        53.10mA        92.30mA
+         6.00V         70.09mA        53.20mA        84.12mA
+         6.10V         70.14mA        53.28mA        87.85mA
+         6.20V         70.18mA        53.33mA        91.45mA
+         6.30V         70.24mA        53.38mA        92.38mA
+         6.40V         70.28mA        53.43mA        92.74mA
+         6.50V         70.31mA        53.47mA        92.94mA
+         7.00V         70.55mA        53.66mA        93.43mA
+         7.50V         70.77mA        53.83mA        93.79mA
+         8.00V         71.00mA        54.00mA        94.13mA
+         8.50V         71.23mA        54.17mA        94.46mA
+         9.00V         71.46mA        54.33mA        94.79mA
+         9.50V         71.68mA        54.50mA        95.12mA
+        10.00V         71.91mA        54.68mA        95.45mA
+|
+[GND_clamp]
+|
+|       Voltage         I(typ)         I(min)         I(max)
+|
+        -5.00V         -4.47A         -4.31A         -4.64A
+        -4.80V         -4.26A         -4.11A         -4.41A
+        -4.60V         -4.05A         -3.90A         -4.19A
+        -4.40V         -3.83A         -3.70A         -3.96A
+        -4.20V         -3.62A         -3.50A         -3.74A
+        -4.00V         -3.41A         -3.30A         -3.51A
+        -3.80V         -3.19A         -3.09A         -3.29A
+        -3.60V         -2.98A         -2.89A         -3.07A
+        -3.40V         -2.77A         -2.69A         -2.84A
+        -3.20V         -2.56A         -2.49A         -2.62A
+        -3.00V         -2.34A         -2.29A         -2.40A
+        -2.80V         -2.13A         -2.08A         -2.17A
+        -2.60V         -1.92A         -1.88A         -1.95A
+        -2.40V         -1.71A         -1.68A         -1.73A
+        -2.20V         -1.50A         -1.48A         -1.50A
+        -2.00V         -1.29A         -1.28A         -1.28A
+        -1.95V         -1.23A         -1.23A         -1.23A
+        -1.90V         -1.18A         -1.18A         -1.17A
+        -1.85V         -1.13A         -1.13A         -1.12A
+        -1.80V         -1.08A         -1.08A         -1.06A
+        -1.75V         -1.02A         -1.03A         -1.01A
+        -1.70V       -971.55mA      -985.28mA      -952.38mA
+        -1.65V       -919.48mA      -935.94mA      -897.55mA
+        -1.60V       -867.42mA      -886.60mA      -842.73mA
+        -1.55V       -815.56mA      -837.45mA      -788.12mA
+        -1.50V       -763.70mA      -788.30mA      -733.51mA
+        -1.45V       -712.11mA      -739.40mA      -679.19mA
+        -1.40V       -660.52mA      -690.50mA      -624.86mA
+        -1.35V       -609.28mA      -641.92mA      -570.93mA
+        -1.30V       -558.04mA      -593.33mA      -516.99mA
+        -1.25V       -507.29mA      -545.17mA      -463.62mA
+        -1.20V       -456.53mA      -497.01mA      -410.25mA
+        -1.15V       -406.47mA      -449.42mA      -357.73mA
+        -1.10V       -356.42mA      -401.84mA      -305.20mA
+        -1.05V       -307.46mA      -355.11mA      -254.16mA
+        -1.00V       -258.51mA      -308.38mA      -203.12mA
+      -950.00mV      -211.51mA      -263.03mA      -155.16mA
+      -900.00mV      -164.51mA      -217.68mA      -107.20mA
+      -850.00mV      -121.74mA      -174.82mA       -68.12mA
+      -800.00mV       -78.97mA      -131.96mA       -29.03mA
+      -750.00mV       -48.06mA       -94.61mA       -15.11mA
+      -700.00mV       -17.16mA       -57.25mA        -1.18mA
+      -650.00mV        -8.99mA       -33.91mA      -601.34uA
+      -600.00mV      -818.15uA       -10.58mA       -17.93uA
+      -550.00mV      -420.77uA        -5.61mA        -9.10uA
+      -500.00mV       -23.40uA      -640.06uA      -275.27nA
+      -450.00mV       -12.03uA      -334.69uA      -140.22nA
+      -400.00mV      -670.53nA       -29.32uA        -5.16nA
+      -350.00mV      -345.63nA       -15.33uA        -2.63nA
+      -300.00mV       -20.72nA        -1.34uA       -90.14pA
+      -250.00mV       -10.71nA      -701.69nA       -26.88pA
+      -200.00mV      -688.97pA       -63.46nA        36.39pA
+      -150.00mV      -339.50pA       -33.47nA        44.67pA
+      -100.00mV         9.98pA        -3.49nA        52.96pA
+       -50.00mV        30.58pA        -1.99nA        45.57pA
+         0.00V         51.18pA      -502.51pA        38.17pA
+         5.00V         78.54pA       274.00nA        55.21pA
+|
+[Pullup]
+|
+|       Voltage         I(typ)         I(min)         I(max)
+|
+        -5.00V        194.09uA       155.64uA       242.16uA
+        -4.50V        219.46uA       175.46uA       274.62uA
+        -4.00V        252.56uA       201.16uA       317.22uA
+        -3.50V        297.56uA       235.84uA       375.65uA
+        -3.00V        362.36uA       285.22uA       460.71uA
+        -2.50V        463.73uA       361.20uA       596.06uA
+        -2.00V        644.73uA       493.26uA       844.93uA
+        -1.50V          1.06mA       779.22uA         1.45mA
+        -1.40V          1.21mA       881.38uA         1.69mA
+        -1.30V          1.42mA         1.01mA         2.03mA
+        -1.20V          1.72mA         1.19mA         2.53mA
+        -1.10V          2.16mA         1.45mA         3.35mA
+        -1.00V          2.90mA         1.84mA         4.90mA
+      -900.00mV         4.31mA         2.49mA         8.65mA
+      -800.00mV         7.76mA         3.76mA        20.91mA
+      -700.00mV        16.68mA         6.77mA        31.41mA
+      -600.00mV        19.97mA        12.32mA        27.59mA
+      -500.00mV        16.94mA        12.65mA        23.02mA
+      -400.00mV        13.57mA        10.27mA        18.43mA
+      -300.00mV        10.18mA         7.71mA        13.83mA
+      -200.00mV         6.78mA         5.13mA         9.22mA
+      -100.00mV         3.39mA         2.56mA         4.60mA
+         0.00V        -11.95pA       -13.37pA       -11.73pA
+       100.00mV        -3.34mA        -2.52mA        -4.54mA
+       200.00mV        -6.58mA        -4.96mA        -8.96mA
+       300.00mV        -9.73mA        -7.33mA       -13.27mA
+       400.00mV       -12.78mA        -9.63mA       -17.45mA
+       500.00mV       -15.74mA       -11.84mA       -21.52mA
+       600.00mV       -18.61mA       -13.98mA       -25.46mA
+       700.00mV       -21.38mA       -16.04mA       -29.29mA
+       800.00mV       -24.06mA       -18.03mA       -33.00mA
+       900.00mV       -26.64mA       -19.94mA       -36.58mA
+         1.00V        -29.13mA       -21.77mA       -40.05mA
+         1.10V        -31.52mA       -23.53mA       -43.39mA
+         1.20V        -33.81mA       -25.21mA       -46.61mA
+         1.30V        -36.01mA       -26.81mA       -49.71mA
+         1.40V        -38.11mA       -28.34mA       -52.68mA
+         1.50V        -40.12mA       -29.78mA       -55.54mA
+         1.60V        -42.03mA       -31.15mA       -58.26mA
+         1.70V        -43.84mA       -32.45mA       -60.87mA
+         1.80V        -45.56mA       -33.66mA       -63.35mA
+         1.90V        -47.18mA       -34.80mA       -65.71mA
+         2.00V        -48.70mA       -35.85mA       -67.94mA
+         2.10V        -50.13mA       -36.84mA       -70.05mA
+         2.20V        -51.45mA       -37.74mA       -72.03mA
+         2.30V        -52.68mA       -38.56mA       -73.88mA
+         2.40V        -53.81mA       -39.31mA       -75.61mA
+         2.50V        -54.84mA       -39.97mA       -77.21mA
+         2.60V        -55.78mA       -40.56mA       -78.69mA
+         2.70V        -56.61mA       -41.07mA       -80.04mA
+         2.80V        -57.35mA       -41.50mA       -81.26mA
+         2.90V        -57.99mA       -41.86mA       -82.35mA
+         3.00V        -58.53mA       -42.13mA       -83.32mA
+         3.10V        -58.97mA       -42.32mA       -84.15mA
+         3.20V        -59.31mA       -42.44mA       -84.86mA
+         3.30V        -59.55mA       -43.06mA       -85.44mA
+         3.40V        -59.69mA       -43.45mA       -85.89mA
+         3.50V        -60.60mA       -43.74mA       -86.21mA
+         3.60V        -61.12mA       -44.00mA       -86.40mA
+         3.70V        -61.52mA       -44.23mA       -87.69mA
+         3.80V        -61.87mA       -44.45mA       -88.43mA
+         3.90V        -62.19mA       -44.65mA       -89.01mA
+         4.00V        -62.49mA       -44.84mA       -89.51mA
+         4.10V        -62.77mA       -45.03mA       -89.97mA
+         4.20V        -63.03mA       -45.21mA       -90.39mA
+         4.30V        -63.29mA       -45.38mA       -90.79mA
+         4.40V        -63.53mA       -45.55mA       -91.16mA
+         4.50V        -63.77mA       -45.71mA       -91.52mA
+         4.60V        -64.00mA       -45.88mA       -91.87mA
+         4.70V        -64.23mA       -46.03mA       -92.21mA
+         4.80V        -64.45mA       -46.19mA       -92.54mA
+         4.90V        -64.67mA       -46.34mA       -92.86mA
+         5.00V        -64.88mA       -46.49mA       -93.17mA
+         5.10V        -65.09mA       -46.63mA       -93.48mA
+         5.20V        -65.30mA       -46.59mA       -93.78mA
+         5.30V        -65.50mA       -44.16mA       -94.08mA
+         5.40V        -65.71mA       -41.94mA       -94.37mA
+         5.50V        -65.90mA       -45.16mA       -94.66mA
+         5.60V        -66.10mA       -46.51mA       -94.94mA
+         5.70V        -66.29mA       -47.05mA       -95.22mA
+         5.80V        -66.49mA       -47.38mA       -95.49mA
+         5.90V        -66.67mA       -47.60mA       -95.32mA
+         6.00V        -66.87mA       -47.79mA       -88.67mA
+         6.10V        -67.05mA       -47.96mA       -92.53mA
+         6.20V        -67.24mA       -48.11mA       -95.43mA
+         6.30V        -67.43mA       -48.26mA       -96.35mA
+         6.40V        -67.61mA       -48.40mA       -96.83mA
+         6.50V        -67.79mA       -48.54mA       -97.20mA
+         7.00V        -68.69mA       -49.21mA       -98.60mA
+         7.50V        -69.56mA       -49.85mA       -99.86mA
+         8.00V        -70.41mA       -50.48mA      -101.08mA
+         8.50V        -71.25mA       -51.10mA      -102.27mA
+         9.00V        -72.08mA       -51.70mA      -103.44mA
+         9.50V        -72.90mA       -52.31mA      -104.59mA
+        10.00V        -73.72mA       -52.92mA      -105.74mA
+|
+[POWER_clamp]
+|
+|       Voltage         I(typ)         I(min)         I(max)
+|
+        -5.00V          5.54A          5.33A          5.74A
+        -4.80V          5.28A          5.08A          5.46A
+        -4.60V          5.01A          4.83A          5.19A
+        -4.40V          4.75A          4.58A          4.91A
+        -4.20V          4.48A          4.33A          4.63A
+        -4.00V          4.22A          4.08A          4.35A
+        -3.80V          3.95A          3.83A          4.07A
+        -3.60V          3.69A          3.58A          3.80A
+        -3.40V          3.42A          3.33A          3.52A
+        -3.20V          3.16A          3.08A          3.24A
+        -3.00V          2.90A          2.83A          2.96A
+        -2.80V          2.63A          2.58A          2.69A
+        -2.60V          2.37A          2.33A          2.41A
+        -2.40V          2.11A          2.08A          2.13A
+        -2.20V          1.85A          1.83A          1.86A
+        -2.00V          1.59A          1.58A          1.58A
+        -1.95V          1.52A          1.52A          1.52A
+        -1.90V          1.46A          1.46A          1.45A
+        -1.85V          1.39A          1.40A          1.38A
+        -1.80V          1.33A          1.34A          1.31A
+        -1.75V          1.26A          1.27A          1.24A
+        -1.70V          1.20A          1.21A          1.17A
+        -1.65V          1.13A          1.15A          1.11A
+        -1.60V          1.07A          1.09A          1.04A
+        -1.55V          1.00A          1.03A        970.41mA
+        -1.50V        939.30mA       969.08mA       902.71mA
+        -1.45V        875.35mA       908.47mA       835.37mA
+        -1.40V        811.40mA       847.86mA       768.03mA
+        -1.35V        747.89mA       787.64mA       701.18mA
+        -1.30V        684.39mA       727.43mA       634.33mA
+        -1.25V        621.49mA       667.75mA       568.19mA
+        -1.20V        558.60mA       608.07mA       502.05mA
+        -1.15V        496.60mA       549.12mA       436.99mA
+        -1.10V        434.59mA       490.18mA       371.93mA
+        -1.05V        373.99mA       432.33mA       308.77mA
+        -1.00V        313.40mA       374.48mA       245.61mA
+      -950.00mV       255.32mA       318.40mA       186.44mA
+      -900.00mV       197.25mA       262.31mA       127.27mA
+      -850.00mV       144.71mA       209.48mA        79.83mA
+      -800.00mV        92.17mA       156.64mA        32.38mA
+      -750.00mV        55.33mA       111.07mA        16.79mA
+      -700.00mV        18.49mA        65.49mA         1.19mA
+      -650.00mV         9.65mA        38.30mA       604.77uA
+      -600.00mV       820.15uA        11.11mA        17.65uA
+      -550.00mV       421.62uA         5.87mA         8.95uA
+      -500.00mV        23.10uA       640.43uA       252.30nA
+      -450.00mV        11.87uA       334.72uA       127.93nA
+      -400.00mV       637.20nA        29.00uA         3.56nA
+      -350.00mV       327.36nA        15.15uA         1.78nA
+      -300.00mV        17.53nA         1.29uA       -10.00pA
+      -250.00mV         8.98nA       676.52nA       -23.97pA
+      -200.00mV       430.02pA        58.24nA       -37.95pA
+      -150.00mV       202.38pA        30.66nA       -47.83pA
+      -100.00mV       -25.25pA         3.07nA       -57.71pA
+       -50.00mV       -37.03pA         1.84nA       -46.16pA
+         0.00V        -48.81pA       606.84pA       -34.60pA
+|
+|*********************************************************************
+|
+[Ramp]
+|
+|                typ                 min                 max
+|
+dV/dt_r      1.59V/401.82ps      1.28V/557.19ps      1.95V/270.04ps
+dV/dt_f      1.89V/1.01ns        1.59V/1.26ns        2.21V/574.27ps
+|
+|*********************************************************************
+|
+[Model]        PCEBT08081AXXXXZZKMB
+Model_type     3-state
+|
+|                    typ                 min                 max
+|
+C_comp               1.80pF              0.97pF              3.72pF
+[Voltage range]      5.000V              4.750V              5.250V
+|
+|*********************************************************************
+|
+[Pulldown]
+|
+|       Voltage         I(typ)         I(min)         I(max)
+|
+        -5.00V       -301.34uA      -247.42uA      -364.12uA
+        -4.50V       -340.96uA      -279.12uA      -413.24uA
+        -4.00V       -392.71uA      -320.28uA      -477.79uA
+        -3.50V       -463.18uA      -375.87uA      -566.43uA
+        -3.00V       -564.76uA      -455.12uA      -695.75uA
+        -2.50V       -723.96uA      -577.24uA      -902.04uA
+        -2.00V         -1.01mA      -789.86uA        -1.28mA
+        -1.50V         -1.66mA        -1.25mA        -2.22mA
+        -1.40V         -1.91mA        -1.42mA        -2.59mA
+        -1.30V         -2.24mA        -1.63mA        -3.12mA
+        -1.20V         -2.71mA        -1.92mA        -3.91mA
+        -1.10V         -3.42mA        -2.34mA        -5.22mA
+        -1.00V         -4.60mA        -2.96mA        -7.71mA
+      -900.00mV        -6.90mA        -4.02mA       -13.92mA
+      -800.00mV       -12.53mA        -6.09mA       -33.75mA
+      -700.00mV       -26.69mA       -10.98mA       -47.97mA
+      -600.00mV       -31.77mA       -19.98mA       -42.66mA
+      -500.00mV       -27.35mA       -20.86mA       -36.16mA
+      -400.00mV       -22.23mA       -17.18mA       -29.42mA
+      -300.00mV       -16.93mA       -13.08mA       -22.44mA
+      -200.00mV       -11.47mA        -8.85mA       -15.22mA
+      -100.00mV        -5.82mA        -4.49mA        -7.74mA
+         0.00V          3.09pA        10.15pA         3.80pA
+       100.00mV         5.76mA         4.43mA         7.67mA
+       200.00mV        11.21mA         8.63mA        14.91mA
+       300.00mV        16.37mA        12.61mA        21.75mA
+       400.00mV        21.23mA        16.36mA        28.19mA
+       500.00mV        25.81mA        19.89mA        34.25mA
+       600.00mV        30.12mA        23.22mA        39.93mA
+       700.00mV        34.16mA        26.34mA        45.26mA
+       800.00mV        37.94mA        29.25mA        50.23mA
+       900.00mV        41.47mA        31.97mA        54.86mA
+         1.00V         44.75mA        34.50mA        59.17mA
+         1.10V         47.79mA        36.84mA        63.16mA
+         1.20V         50.59mA        38.99mA        66.84mA
+         1.30V         53.17mA        40.97mA        70.22mA
+         1.40V         55.53mA        42.77mA        73.31mA
+         1.50V         57.68mA        44.41mA        76.13mA
+         1.60V         59.61mA        45.88mA        78.67mA
+         1.70V         61.35mA        47.18mA        80.96mA
+         1.80V         62.89mA        48.33mA        82.99mA
+         1.90V         64.24mA        49.33mA        84.77mA
+         2.00V         65.40mA        50.17mA        86.33mA
+         2.10V         66.38mA        50.87mA        87.65mA
+         2.20V         67.18mA        51.43mA        88.75mA
+         2.30V         67.82mA        51.85mA        89.64mA
+         2.40V         68.29mA        52.13mA        90.32mA
+         2.50V         68.51mA        52.22mA        90.50mA
+         2.60V         68.56mA        52.25mA        90.57mA
+         2.70V         68.60mA        52.28mA        90.63mA
+         2.80V         68.65mA        52.31mA        90.70mA
+         2.90V         68.69mA        52.35mA        90.76mA
+         3.00V         68.74mA        52.38mA        90.83mA
+         3.10V         68.78mA        52.41mA        90.90mA
+         3.20V         68.83mA        52.44mA        90.96mA
+         3.30V         68.87mA        52.48mA        91.03mA
+         3.40V         68.92mA        52.51mA        91.10mA
+         3.50V         68.96mA        52.54mA        91.16mA
+         3.60V         69.01mA        52.57mA        91.23mA
+         3.70V         69.05mA        52.61mA        91.30mA
+         3.80V         69.10mA        52.64mA        91.36mA
+         3.90V         69.14mA        52.67mA        91.43mA
+         4.00V         69.19mA        52.70mA        91.49mA
+         4.10V         69.23mA        52.74mA        91.56mA
+         4.20V         69.28mA        52.77mA        91.63mA
+         4.30V         69.32mA        52.80mA        91.69mA
+         4.40V         69.37mA        52.83mA        91.76mA
+         4.50V         69.41mA        52.87mA        91.83mA
+         4.60V         69.46mA        52.90mA        91.89mA
+         4.70V         69.50mA        52.93mA        91.96mA
+         4.80V         69.55mA        52.96mA        92.03mA
+         4.90V         69.60mA        53.00mA        92.09mA
+         5.00V         69.64mA        53.03mA        92.16mA
+         5.10V         69.69mA        53.05mA        92.22mA
+         5.20V         69.73mA        52.90mA        92.29mA
+         5.30V         69.78mA        50.13mA        92.36mA
+         5.40V         69.82mA        46.57mA        92.42mA
+         5.50V         69.87mA        50.46mA        92.49mA
+         5.60V         69.91mA        52.10mA        92.55mA
+         5.70V         69.96mA        52.68mA        92.62mA
+         5.80V         70.00mA        52.95mA        92.68mA
+         5.90V         70.04mA        53.10mA        92.30mA
+         6.00V         70.09mA        53.20mA        84.12mA
+         6.10V         70.14mA        53.28mA        87.85mA
+         6.20V         70.18mA        53.33mA        91.45mA
+         6.30V         70.24mA        53.38mA        92.38mA
+         6.40V         70.28mA        53.43mA        92.74mA
+         6.50V         70.31mA        53.47mA        92.94mA
+         7.00V         70.55mA        53.66mA        93.43mA
+         7.50V         70.77mA        53.83mA        93.79mA
+         8.00V         71.00mA        54.00mA        94.13mA
+         8.50V         71.23mA        54.17mA        94.46mA
+         9.00V         71.46mA        54.33mA        94.79mA
+         9.50V         71.68mA        54.50mA        95.12mA
+        10.00V         71.91mA        54.68mA        95.45mA
+|
+[GND_clamp]
+|
+|       Voltage         I(typ)         I(min)         I(max)
+|
+        -5.00V         -4.47A         -4.31A         -4.64A
+        -4.80V         -4.26A         -4.11A         -4.41A
+        -4.60V         -4.05A         -3.90A         -4.19A
+        -4.40V         -3.83A         -3.70A         -3.96A
+        -4.20V         -3.62A         -3.50A         -3.74A
+        -4.00V         -3.41A         -3.30A         -3.51A
+        -3.80V         -3.19A         -3.09A         -3.29A
+        -3.60V         -2.98A         -2.89A         -3.07A
+        -3.40V         -2.77A         -2.69A         -2.84A
+        -3.20V         -2.56A         -2.49A         -2.62A
+        -3.00V         -2.34A         -2.29A         -2.40A
+        -2.80V         -2.13A         -2.08A         -2.17A
+        -2.60V         -1.92A         -1.88A         -1.95A
+        -2.40V         -1.71A         -1.68A         -1.73A
+        -2.20V         -1.50A         -1.48A         -1.50A
+        -2.00V         -1.29A         -1.28A         -1.28A
+        -1.95V         -1.23A         -1.23A         -1.23A
+        -1.90V         -1.18A         -1.18A         -1.17A
+        -1.85V         -1.13A         -1.13A         -1.12A
+        -1.80V         -1.08A         -1.08A         -1.06A
+        -1.75V         -1.02A         -1.03A         -1.01A
+        -1.70V       -971.55mA      -985.28mA      -952.38mA
+        -1.65V       -919.48mA      -935.94mA      -897.55mA
+        -1.60V       -867.42mA      -886.60mA      -842.73mA
+        -1.55V       -815.56mA      -837.45mA      -788.12mA
+        -1.50V       -763.70mA      -788.30mA      -733.51mA
+        -1.45V       -712.11mA      -739.40mA      -679.19mA
+        -1.40V       -660.52mA      -690.50mA      -624.86mA
+        -1.35V       -609.28mA      -641.92mA      -570.93mA
+        -1.30V       -558.04mA      -593.33mA      -516.99mA
+        -1.25V       -507.29mA      -545.17mA      -463.62mA
+        -1.20V       -456.53mA      -497.01mA      -410.25mA
+        -1.15V       -406.47mA      -449.42mA      -357.73mA
+        -1.10V       -356.42mA      -401.84mA      -305.20mA
+        -1.05V       -307.46mA      -355.11mA      -254.16mA
+        -1.00V       -258.51mA      -308.38mA      -203.12mA
+      -950.00mV      -211.51mA      -263.03mA      -155.16mA
+      -900.00mV      -164.51mA      -217.68mA      -107.20mA
+      -850.00mV      -121.74mA      -174.82mA       -68.12mA
+      -800.00mV       -78.97mA      -131.96mA       -29.03mA
+      -750.00mV       -48.06mA       -94.61mA       -15.11mA
+      -700.00mV       -17.16mA       -57.25mA        -1.18mA
+      -650.00mV        -8.99mA       -33.91mA      -601.34uA
+      -600.00mV      -818.15uA       -10.58mA       -17.93uA
+      -550.00mV      -420.77uA        -5.61mA        -9.10uA
+      -500.00mV       -23.40uA      -640.06uA      -275.27nA
+      -450.00mV       -12.03uA      -334.69uA      -140.22nA
+      -400.00mV      -670.53nA       -29.32uA        -5.16nA
+      -350.00mV      -345.63nA       -15.33uA        -2.63nA
+      -300.00mV       -20.72nA        -1.34uA       -90.14pA
+      -250.00mV       -10.71nA      -701.69nA       -26.88pA
+      -200.00mV      -688.97pA       -63.46nA        36.39pA
+      -150.00mV      -339.50pA       -33.47nA        44.67pA
+      -100.00mV         9.98pA        -3.49nA        52.96pA
+       -50.00mV        30.58pA        -1.99nA        45.57pA
+         0.00V         51.18pA      -502.51pA        38.17pA
+         5.00V         78.54pA       274.00nA        55.21pA
+|
+[Pullup]
+|
+|       Voltage         I(typ)         I(min)         I(max)
+|
+        -5.00V        194.09uA       155.64uA       242.16uA
+        -4.50V        219.46uA       175.46uA       274.62uA
+        -4.00V        252.56uA       201.16uA       317.22uA
+        -3.50V        297.56uA       235.84uA       375.65uA
+        -3.00V        362.36uA       285.22uA       460.71uA
+        -2.50V        463.73uA       361.20uA       596.06uA
+        -2.00V        644.73uA       493.26uA       844.93uA
+        -1.50V          1.06mA       779.22uA         1.45mA
+        -1.40V          1.21mA       881.38uA         1.69mA
+        -1.30V          1.42mA         1.01mA         2.03mA
+        -1.20V          1.72mA         1.19mA         2.53mA
+        -1.10V          2.16mA         1.45mA         3.35mA
+        -1.00V          2.90mA         1.84mA         4.90mA
+      -900.00mV         4.31mA         2.49mA         8.65mA
+      -800.00mV         7.76mA         3.76mA        20.91mA
+      -700.00mV        16.68mA         6.77mA        31.41mA
+      -600.00mV        19.97mA        12.32mA        27.59mA
+      -500.00mV        16.94mA        12.65mA        23.02mA
+      -400.00mV        13.57mA        10.27mA        18.43mA
+      -300.00mV        10.18mA         7.71mA        13.83mA
+      -200.00mV         6.78mA         5.13mA         9.22mA
+      -100.00mV         3.39mA         2.56mA         4.60mA
+         0.00V        -11.95pA       -13.37pA       -11.73pA
+       100.00mV        -3.34mA        -2.52mA        -4.54mA
+       200.00mV        -6.58mA        -4.96mA        -8.96mA
+       300.00mV        -9.73mA        -7.33mA       -13.27mA
+       400.00mV       -12.78mA        -9.63mA       -17.45mA
+       500.00mV       -15.74mA       -11.84mA       -21.52mA
+       600.00mV       -18.61mA       -13.98mA       -25.46mA
+       700.00mV       -21.38mA       -16.04mA       -29.29mA
+       800.00mV       -24.06mA       -18.03mA       -33.00mA
+       900.00mV       -26.64mA       -19.94mA       -36.58mA
+         1.00V        -29.13mA       -21.77mA       -40.05mA
+         1.10V        -31.52mA       -23.53mA       -43.39mA
+         1.20V        -33.81mA       -25.21mA       -46.61mA
+         1.30V        -36.01mA       -26.81mA       -49.71mA
+         1.40V        -38.11mA       -28.34mA       -52.68mA
+         1.50V        -40.12mA       -29.78mA       -55.54mA
+         1.60V        -42.03mA       -31.15mA       -58.26mA
+         1.70V        -43.84mA       -32.45mA       -60.87mA
+         1.80V        -45.56mA       -33.66mA       -63.35mA
+         1.90V        -47.18mA       -34.80mA       -65.71mA
+         2.00V        -48.70mA       -35.85mA       -67.94mA
+         2.10V        -50.13mA       -36.84mA       -70.05mA
+         2.20V        -51.45mA       -37.74mA       -72.03mA
+         2.30V        -52.68mA       -38.56mA       -73.88mA
+         2.40V        -53.81mA       -39.31mA       -75.61mA
+         2.50V        -54.84mA       -39.97mA       -77.21mA
+         2.60V        -55.78mA       -40.56mA       -78.69mA
+         2.70V        -56.61mA       -41.07mA       -80.04mA
+         2.80V        -57.35mA       -41.50mA       -81.26mA
+         2.90V        -57.99mA       -41.86mA       -82.35mA
+         3.00V        -58.53mA       -42.13mA       -83.32mA
+         3.10V        -58.97mA       -42.32mA       -84.15mA
+         3.20V        -59.31mA       -42.44mA       -84.86mA
+         3.30V        -59.55mA       -43.06mA       -85.44mA
+         3.40V        -59.69mA       -43.45mA       -85.89mA
+         3.50V        -60.60mA       -43.74mA       -86.21mA
+         3.60V        -61.12mA       -44.00mA       -86.40mA
+         3.70V        -61.52mA       -44.23mA       -87.69mA
+         3.80V        -61.87mA       -44.45mA       -88.43mA
+         3.90V        -62.19mA       -44.65mA       -89.01mA
+         4.00V        -62.49mA       -44.84mA       -89.51mA
+         4.10V        -62.77mA       -45.03mA       -89.97mA
+         4.20V        -63.03mA       -45.21mA       -90.39mA
+         4.30V        -63.29mA       -45.38mA       -90.79mA
+         4.40V        -63.53mA       -45.55mA       -91.16mA
+         4.50V        -63.77mA       -45.71mA       -91.52mA
+         4.60V        -64.00mA       -45.88mA       -91.87mA
+         4.70V        -64.23mA       -46.03mA       -92.21mA
+         4.80V        -64.45mA       -46.19mA       -92.54mA
+         4.90V        -64.67mA       -46.34mA       -92.86mA
+         5.00V        -64.88mA       -46.49mA       -93.17mA
+         5.10V        -65.09mA       -46.63mA       -93.48mA
+         5.20V        -65.30mA       -46.59mA       -93.78mA
+         5.30V        -65.50mA       -44.16mA       -94.08mA
+         5.40V        -65.71mA       -41.94mA       -94.37mA
+         5.50V        -65.90mA       -45.16mA       -94.66mA
+         5.60V        -66.10mA       -46.51mA       -94.94mA
+         5.70V        -66.29mA       -47.05mA       -95.22mA
+         5.80V        -66.49mA       -47.38mA       -95.49mA
+         5.90V        -66.67mA       -47.60mA       -95.32mA
+         6.00V        -66.87mA       -47.79mA       -88.67mA
+         6.10V        -67.05mA       -47.96mA       -92.53mA
+         6.20V        -67.24mA       -48.11mA       -95.43mA
+         6.30V        -67.43mA       -48.26mA       -96.35mA
+         6.40V        -67.61mA       -48.40mA       -96.83mA
+         6.50V        -67.79mA       -48.54mA       -97.20mA
+         7.00V        -68.69mA       -49.21mA       -98.60mA
+         7.50V        -69.56mA       -49.85mA       -99.86mA
+         8.00V        -70.41mA       -50.48mA      -101.08mA
+         8.50V        -71.25mA       -51.10mA      -102.27mA
+         9.00V        -72.08mA       -51.70mA      -103.44mA
+         9.50V        -72.90mA       -52.31mA      -104.59mA
+        10.00V        -73.72mA       -52.92mA      -105.74mA
+|
+[POWER_clamp]
+|
+|       Voltage         I(typ)         I(min)         I(max)
+|
+        -5.00V          5.54A          5.33A          5.74A
+        -4.80V          5.28A          5.08A          5.46A
+        -4.60V          5.01A          4.83A          5.19A
+        -4.40V          4.75A          4.58A          4.91A
+        -4.20V          4.48A          4.33A          4.63A
+        -4.00V          4.22A          4.08A          4.35A
+        -3.80V          3.95A          3.83A          4.07A
+        -3.60V          3.69A          3.58A          3.80A
+        -3.40V          3.42A          3.33A          3.52A
+        -3.20V          3.16A          3.08A          3.24A
+        -3.00V          2.90A          2.83A          2.96A
+        -2.80V          2.63A          2.58A          2.69A
+        -2.60V          2.37A          2.33A          2.41A
+        -2.40V          2.11A          2.08A          2.13A
+        -2.20V          1.85A          1.83A          1.86A
+        -2.00V          1.59A          1.58A          1.58A
+        -1.95V          1.52A          1.52A          1.52A
+        -1.90V          1.46A          1.46A          1.45A
+        -1.85V          1.39A          1.40A          1.38A
+        -1.80V          1.33A          1.34A          1.31A
+        -1.75V          1.26A          1.27A          1.24A
+        -1.70V          1.20A          1.21A          1.17A
+        -1.65V          1.13A          1.15A          1.11A
+        -1.60V          1.07A          1.09A          1.04A
+        -1.55V          1.00A          1.03A        970.41mA
+        -1.50V        939.30mA       969.08mA       902.71mA
+        -1.45V        875.35mA       908.47mA       835.37mA
+        -1.40V        811.40mA       847.86mA       768.03mA
+        -1.35V        747.89mA       787.64mA       701.18mA
+        -1.30V        684.39mA       727.43mA       634.33mA
+        -1.25V        621.49mA       667.75mA       568.19mA
+        -1.20V        558.60mA       608.07mA       502.05mA
+        -1.15V        496.60mA       549.12mA       436.99mA
+        -1.10V        434.59mA       490.18mA       371.93mA
+        -1.05V        373.99mA       432.33mA       308.77mA
+        -1.00V        313.40mA       374.48mA       245.61mA
+      -950.00mV       255.32mA       318.40mA       186.44mA
+      -900.00mV       197.25mA       262.31mA       127.27mA
+      -850.00mV       144.71mA       209.48mA        79.83mA
+      -800.00mV        92.17mA       156.64mA        32.38mA
+      -750.00mV        55.33mA       111.07mA        16.79mA
+      -700.00mV        18.49mA        65.49mA         1.19mA
+      -650.00mV         9.65mA        38.30mA       604.77uA
+      -600.00mV       820.15uA        11.11mA        17.65uA
+      -550.00mV       421.62uA         5.87mA         8.95uA
+      -500.00mV        23.10uA       640.43uA       252.30nA
+      -450.00mV        11.87uA       334.72uA       127.93nA
+      -400.00mV       637.20nA        29.00uA         3.56nA
+      -350.00mV       327.36nA        15.15uA         1.78nA
+      -300.00mV        17.53nA         1.29uA       -10.00pA
+      -250.00mV         8.98nA       676.52nA       -23.98pA
+      -200.00mV       430.02pA        58.24nA       -37.95pA
+      -150.00mV       202.38pA        30.66nA       -47.83pA
+      -100.00mV       -25.25pA         3.07nA       -57.71pA
+       -50.00mV       -37.03pA         1.84nA       -46.16pA
+         0.00V        -48.81pA       606.84pA       -34.60pA
+|
+|*********************************************************************
+|
+[Ramp]
+|
+|                typ                 min                 max
+|
+dV/dt_r      1.59V/1.15ns        1.28V/1.34ns        1.95V/952.83ps
+dV/dt_f      1.87V/1.32ns        1.54V/1.43ns        2.20V/1.15ns
+|
+|*********************************************************************
+|
+[Model]        PCEBB08080A0S2AZZKMB
+Model_type     I/O
+|
+Vinl = 0.80V
+Vinh = 2.00V
+|
+|                    typ                 min                 max
+|
+C_comp               1.80pF              0.97pF              3.72pF
+[Voltage range]      5.000V              4.750V              5.250V
+|
+|*********************************************************************
+|
+[Pulldown]
+|
+|       Voltage         I(typ)         I(min)         I(max)
+|
+        -5.00V       -301.34uA      -247.42uA      -364.12uA
+        -4.50V       -340.96uA      -279.12uA      -413.24uA
+        -4.00V       -392.71uA      -320.28uA      -477.79uA
+        -3.50V       -463.18uA      -375.87uA      -566.43uA
+        -3.00V       -564.76uA      -455.12uA      -695.74uA
+        -2.50V       -723.96uA      -577.24uA      -902.04uA
+        -2.00V         -1.01mA      -789.86uA        -1.28mA
+        -1.50V         -1.66mA        -1.25mA        -2.22mA
+        -1.40V         -1.91mA        -1.42mA        -2.59mA
+        -1.30V         -2.24mA        -1.63mA        -3.12mA
+        -1.20V         -2.71mA        -1.92mA        -3.91mA
+        -1.10V         -3.42mA        -2.34mA        -5.22mA
+        -1.00V         -4.60mA        -2.96mA        -7.71mA
+      -900.00mV        -6.90mA        -4.02mA       -13.92mA
+      -800.00mV       -12.53mA        -6.09mA       -33.75mA
+      -700.00mV       -26.69mA       -10.98mA       -47.97mA
+      -600.00mV       -31.77mA       -19.98mA       -42.66mA
+      -500.00mV       -27.35mA       -20.86mA       -36.16mA
+      -400.00mV       -22.23mA       -17.18mA       -29.42mA
+      -300.00mV       -16.93mA       -13.08mA       -22.44mA
+      -200.00mV       -11.47mA        -8.85mA       -15.22mA
+      -100.00mV        -5.82mA        -4.49mA        -7.74mA
+         0.00V          3.09pA        10.15pA         3.80pA
+       100.00mV         5.76mA         4.43mA         7.67mA
+       200.00mV        11.21mA         8.63mA        14.91mA
+       300.00mV        16.36mA        12.61mA        21.75mA
+       400.00mV        21.23mA        16.36mA        28.19mA
+       500.00mV        25.80mA        19.89mA        34.25mA
+       600.00mV        30.09mA        23.22mA        39.93mA
+       700.00mV        34.13mA        26.34mA        45.25mA
+       800.00mV        37.91mA        29.25mA        50.19mA
+       900.00mV        41.44mA        31.97mA        54.82mA
+         1.00V         44.72mA        34.50mA        59.13mA
+         1.10V         47.76mA        36.84mA        63.12mA
+         1.20V         50.57mA        38.99mA        66.80mA
+         1.30V         53.15mA        40.97mA        70.18mA
+         1.40V         55.51mA        42.77mA        73.28mA
+         1.50V         57.66mA        44.41mA        76.09mA
+         1.60V         59.61mA        45.87mA        78.64mA
+         1.70V         61.35mA        47.16mA        80.96mA
+         1.80V         62.88mA        48.31mA        82.99mA
+         1.90V         64.23mA        49.31mA        84.76mA
+         2.00V         65.39mA        50.16mA        86.31mA
+         2.10V         66.37mA        50.86mA        87.64mA
+         2.20V         67.18mA        51.41mA        88.74mA
+         2.30V         67.81mA        51.83mA        89.63mA
+         2.40V         68.28mA        52.10mA        90.28mA
+         2.50V         68.51mA        52.22mA        90.50mA
+         2.60V         68.56mA        52.25mA        90.57mA
+         2.70V         68.60mA        52.28mA        90.63mA
+         2.80V         68.65mA        52.31mA        90.70mA
+         2.90V         68.69mA        52.35mA        90.76mA
+         3.00V         68.74mA        52.38mA        90.83mA
+         3.10V         68.78mA        52.41mA        90.90mA
+         3.20V         68.83mA        52.44mA        90.96mA
+         3.30V         68.87mA        52.48mA        91.03mA
+         3.40V         68.92mA        52.51mA        91.10mA
+         3.50V         68.96mA        52.54mA        91.16mA
+         3.60V         69.01mA        52.57mA        91.23mA
+         3.70V         69.05mA        52.61mA        91.30mA
+         3.80V         69.10mA        52.64mA        91.36mA
+         3.90V         69.14mA        52.67mA        91.43mA
+         4.00V         69.19mA        52.70mA        91.49mA
+         4.10V         69.23mA        52.74mA        91.56mA
+         4.20V         69.28mA        52.77mA        91.63mA
+         4.30V         69.32mA        52.80mA        91.69mA
+         4.40V         69.37mA        52.83mA        91.76mA
+         4.50V         69.41mA        52.87mA        91.83mA
+         4.60V         69.46mA        52.90mA        91.89mA
+         4.70V         69.50mA        52.93mA        91.96mA
+         4.80V         69.55mA        52.96mA        92.03mA
+         4.90V         69.60mA        53.00mA        92.09mA
+         5.00V         69.64mA        53.03mA        92.16mA
+         5.10V         69.69mA        53.05mA        92.22mA
+         5.20V         69.73mA        52.92mA        92.29mA
+         5.30V         69.78mA        50.57mA        92.36mA
+         5.40V         69.82mA        48.45mA        92.42mA
+         5.50V         69.91mA        51.48mA        92.49mA
+         5.60V         71.19mA        52.50mA        92.55mA
+         5.70V         77.99mA        52.87mA        92.62mA
+         5.80V         73.76mA        53.06mA        92.69mA
+         5.90V         71.37mA        53.17mA        92.66mA
+         6.00V         70.71mA        53.25mA        86.46mA
+         6.10V         70.48mA        53.31mA        88.66mA
+         6.20V         70.40mA        53.35mA        91.72mA
+         6.30V         70.39mA        53.40mA        92.50mA
+         6.40V         70.39mA        53.44mA        92.81mA
+         6.50V         70.41mA        53.48mA        92.99mA
+         7.00V         70.58mA        53.67mA        93.44mA
+         7.50V         70.79mA        53.84mA        93.79mA
+         8.00V         71.01mA        54.00mA        94.13mA
+         8.50V         71.23mA        54.17mA        94.46mA
+         9.00V         71.46mA        54.33mA        94.79mA
+         9.50V         71.69mA        54.50mA        95.12mA
+        10.00V         71.91mA        54.68mA        95.45mA
+|
+[GND_clamp]
+|
+|       Voltage         I(typ)         I(min)         I(max)
+|
+        -5.00V         -4.47A         -4.31A         -4.64A
+        -4.80V         -4.26A         -4.11A         -4.41A
+        -4.60V         -4.05A         -3.90A         -4.19A
+        -4.40V         -3.83A         -3.70A         -3.96A
+        -4.20V         -3.62A         -3.50A         -3.74A
+        -4.00V         -3.41A         -3.30A         -3.51A
+        -3.80V         -3.19A         -3.09A         -3.29A
+        -3.60V         -2.98A         -2.89A         -3.07A
+        -3.40V         -2.77A         -2.69A         -2.84A
+        -3.20V         -2.56A         -2.49A         -2.62A
+        -3.00V         -2.34A         -2.29A         -2.40A
+        -2.80V         -2.13A         -2.08A         -2.17A
+        -2.60V         -1.92A         -1.88A         -1.95A
+        -2.40V         -1.71A         -1.68A         -1.73A
+        -2.20V         -1.50A         -1.48A         -1.50A
+        -2.00V         -1.29A         -1.28A         -1.28A
+        -1.95V         -1.23A         -1.23A         -1.23A
+        -1.90V         -1.18A         -1.18A         -1.17A
+        -1.85V         -1.13A         -1.13A         -1.12A
+        -1.80V         -1.08A         -1.08A         -1.06A
+        -1.75V         -1.02A         -1.03A         -1.01A
+        -1.70V       -971.55mA      -985.28mA      -952.38mA
+        -1.65V       -919.48mA      -935.94mA      -897.55mA
+        -1.60V       -867.42mA      -886.60mA      -842.73mA
+        -1.55V       -815.56mA      -837.45mA      -788.12mA
+        -1.50V       -763.70mA      -788.30mA      -733.51mA
+        -1.45V       -712.11mA      -739.40mA      -679.19mA
+        -1.40V       -660.52mA      -690.50mA      -624.86mA
+        -1.35V       -609.28mA      -641.92mA      -570.93mA
+        -1.30V       -558.04mA      -593.33mA      -516.99mA
+        -1.25V       -507.29mA      -545.17mA      -463.62mA
+        -1.20V       -456.53mA      -497.01mA      -410.25mA
+        -1.15V       -406.47mA      -449.42mA      -357.73mA
+        -1.10V       -356.42mA      -401.84mA      -305.20mA
+        -1.05V       -307.46mA      -355.11mA      -254.16mA
+        -1.00V       -258.51mA      -308.38mA      -203.12mA
+      -950.00mV      -211.51mA      -263.03mA      -155.16mA
+      -900.00mV      -164.51mA      -217.68mA      -107.20mA
+      -850.00mV      -121.74mA      -174.82mA       -68.12mA
+      -800.00mV       -78.97mA      -131.96mA       -29.03mA
+      -750.00mV       -48.06mA       -94.61mA       -15.11mA
+      -700.00mV       -17.16mA       -57.25mA        -1.18mA
+      -650.00mV        -8.99mA       -33.91mA      -601.34uA
+      -600.00mV      -818.15uA       -10.58mA       -17.93uA
+      -550.00mV      -420.77uA        -5.61mA        -9.10uA
+      -500.00mV       -23.40uA      -640.06uA      -275.26nA
+      -450.00mV       -12.03uA      -334.69uA      -140.21nA
+      -400.00mV      -670.52nA       -29.32uA        -5.15nA
+      -350.00mV      -345.62nA       -15.33uA        -2.62nA
+      -300.00mV       -20.71nA        -1.34uA       -81.81pA
+      -250.00mV       -10.70nA      -701.69nA       -18.64pA
+      -200.00mV      -681.14pA       -63.45nA        44.53pA
+      -150.00mV      -331.74pA       -33.47nA        52.73pA
+      -100.00mV        17.65pA        -3.48nA        60.94pA
+       -50.00mV        38.19pA        -1.99nA        53.48pA
+         0.00V         58.73pA      -495.27pA        46.02pA
+         5.00V         80.56pA       321.29nA        69.62pA
+|
+[Pullup]
+|
+|       Voltage         I(typ)         I(min)         I(max)
+|
+        -5.00V        194.09uA       155.64uA       242.16uA
+        -4.50V        219.46uA       175.46uA       274.62uA
+        -4.00V        252.56uA       201.16uA       317.22uA
+        -3.50V        297.56uA       235.84uA       375.65uA
+        -3.00V        362.36uA       285.22uA       460.71uA
+        -2.50V        463.73uA       361.20uA       596.06uA
+        -2.00V        644.73uA       493.26uA       844.93uA
+        -1.50V          1.06mA       779.22uA         1.45mA
+        -1.40V          1.21mA       881.38uA         1.69mA
+        -1.30V          1.42mA         1.01mA         2.03mA
+        -1.20V          1.72mA         1.19mA         2.53mA
+        -1.10V          2.16mA         1.45mA         3.35mA
+        -1.00V          2.90mA         1.84mA         4.90mA
+      -900.00mV         4.31mA         2.49mA         8.65mA
+      -800.00mV         7.76mA         3.76mA        20.91mA
+      -700.00mV        16.68mA         6.77mA        31.41mA
+      -600.00mV        19.97mA        12.32mA        27.59mA
+      -500.00mV        16.94mA        12.65mA        23.02mA
+      -400.00mV        13.57mA        10.27mA        18.43mA
+      -300.00mV        10.18mA         7.71mA        13.83mA
+      -200.00mV         6.78mA         5.13mA         9.22mA
+      -100.00mV         3.39mA         2.56mA         4.60mA
+         0.00V        -11.95pA       -13.37pA       -11.73pA
+       100.00mV        -3.34mA        -2.52mA        -4.54mA
+       200.00mV        -6.58mA        -4.96mA        -8.96mA
+       300.00mV        -9.73mA        -7.33mA       -13.27mA
+       400.00mV       -12.78mA        -9.63mA       -17.45mA
+       500.00mV       -15.74mA       -11.84mA       -21.52mA
+       600.00mV       -18.60mA       -13.98mA       -25.46mA
+       700.00mV       -21.37mA       -16.04mA       -29.29mA
+       800.00mV       -24.05mA       -18.03mA       -32.98mA
+       900.00mV       -26.63mA       -19.94mA       -36.57mA
+         1.00V        -29.11mA       -21.77mA       -40.03mA
+         1.10V        -31.51mA       -23.53mA       -43.37mA
+         1.20V        -33.80mA       -25.21mA       -46.59mA
+         1.30V        -36.00mA       -26.81mA       -49.69mA
+         1.40V        -38.10mA       -28.34mA       -52.67mA
+         1.50V        -40.11mA       -29.78mA       -55.52mA
+         1.60V        -42.03mA       -31.15mA       -58.25mA
+         1.70V        -43.84mA       -32.44mA       -60.87mA
+         1.80V        -45.56mA       -33.65mA       -63.35mA
+         1.90V        -47.18mA       -34.79mA       -65.70mA
+         2.00V        -48.70mA       -35.85mA       -67.93mA
+         2.10V        -50.12mA       -36.83mA       -70.04mA
+         2.20V        -51.45mA       -37.73mA       -72.02mA
+         2.30V        -52.68mA       -38.55mA       -73.87mA
+         2.40V        -53.81mA       -39.30mA       -75.60mA
+         2.50V        -54.84mA       -39.96mA       -77.21mA
+         2.60V        -55.77mA       -40.55mA       -78.68mA
+         2.70V        -56.61mA       -41.06mA       -80.03mA
+         2.80V        -57.35mA       -41.49mA       -81.25mA
+         2.90V        -57.98mA       -41.85mA       -82.34mA
+         3.00V        -58.52mA       -42.12mA       -83.31mA
+         3.10V        -58.96mA       -42.31mA       -84.14mA
+         3.20V        -59.30mA       -42.44mA       -84.85mA
+         3.30V        -59.55mA       -43.06mA       -85.43mA
+         3.40V        -59.69mA       -43.45mA       -85.88mA
+         3.50V        -60.59mA       -43.74mA       -86.21mA
+         3.60V        -61.11mA       -44.00mA       -86.40mA
+         3.70V        -61.52mA       -44.23mA       -87.67mA
+         3.80V        -61.87mA       -44.45mA       -88.42mA
+         3.90V        -62.19mA       -44.65mA       -89.01mA
+         4.00V        -62.49mA       -44.84mA       -89.51mA
+         4.10V        -62.77mA       -45.03mA       -89.97mA
+         4.20V        -63.03mA       -45.21mA       -90.39mA
+         4.30V        -63.29mA       -45.38mA       -90.78mA
+         4.40V        -63.53mA       -45.55mA       -91.16mA
+         4.50V        -63.77mA       -45.71mA       -91.52mA
+         4.60V        -64.00mA       -45.88mA       -91.87mA
+         4.70V        -64.23mA       -46.03mA       -92.21mA
+         4.80V        -64.45mA       -46.19mA       -92.54mA
+         4.90V        -64.67mA       -46.34mA       -92.86mA
+         5.00V        -64.88mA       -46.49mA       -93.17mA
+         5.10V        -65.09mA       -46.64mA       -93.48mA
+         5.20V        -65.30mA       -46.62mA       -93.78mA
+         5.30V        -65.50mA       -44.58mA       -94.08mA
+         5.40V        -65.71mA       -43.47mA       -94.37mA
+         5.50V        -65.94mA       -45.93mA       -94.66mA
+         5.60V        -67.34mA       -46.81mA       -94.94mA
+         5.70V        -72.83mA       -47.20mA       -95.22mA
+         5.80V        -69.31mA       -47.46mA       -95.50mA
+         5.90V        -67.69mA       -47.66mA       -95.67mA
+         6.00V        -67.34mA       -47.83mA       -90.55mA
+         6.10V        -67.32mA       -47.99mA       -93.14mA
+         6.20V        -67.41mA       -48.13mA       -95.64mA
+         6.30V        -67.55mA       -48.27mA       -96.45mA
+         6.40V        -67.70mA       -48.41mA       -96.89mA
+         6.50V        -67.86mA       -48.55mA       -97.24mA
+         7.00V        -68.71mA       -49.22mA       -98.61mA
+         7.50V        -69.57mA       -49.85mA       -99.86mA
+         8.00V        -70.42mA       -50.48mA      -101.08mA
+         8.50V        -71.26mA       -51.10mA      -102.27mA
+         9.00V        -72.09mA       -51.70mA      -103.44mA
+         9.50V        -72.91mA       -52.31mA      -104.59mA
+        10.00V        -73.72mA       -52.91mA      -105.74mA
+|
+[POWER_clamp]
+|
+|       Voltage         I(typ)         I(min)         I(max)
+|
+        -5.00V          5.54A          5.33A          5.74A
+        -4.80V          5.28A          5.08A          5.46A
+        -4.60V          5.01A          4.83A          5.19A
+        -4.40V          4.75A          4.58A          4.91A
+        -4.20V          4.48A          4.33A          4.63A
+        -4.00V          4.22A          4.08A          4.35A
+        -3.80V          3.95A          3.83A          4.07A
+        -3.60V          3.69A          3.58A          3.80A
+        -3.40V          3.42A          3.33A          3.52A
+        -3.20V          3.16A          3.08A          3.24A
+        -3.00V          2.90A          2.83A          2.96A
+        -2.80V          2.63A          2.58A          2.69A
+        -2.60V          2.37A          2.33A          2.41A
+        -2.40V          2.11A          2.08A          2.13A
+        -2.20V          1.85A          1.83A          1.86A
+        -2.00V          1.59A          1.58A          1.58A
+        -1.95V          1.52A          1.52A          1.52A
+        -1.90V          1.46A          1.46A          1.45A
+        -1.85V          1.39A          1.40A          1.38A
+        -1.80V          1.33A          1.34A          1.31A
+        -1.75V          1.26A          1.27A          1.24A
+        -1.70V          1.20A          1.21A          1.17A
+        -1.65V          1.13A          1.15A          1.11A
+        -1.60V          1.07A          1.09A          1.04A
+        -1.55V          1.00A          1.03A        970.41mA
+        -1.50V        939.30mA       969.08mA       902.71mA
+        -1.45V        875.35mA       908.47mA       835.37mA
+        -1.40V        811.40mA       847.86mA       768.03mA
+        -1.35V        747.89mA       787.64mA       701.18mA
+        -1.30V        684.39mA       727.43mA       634.33mA
+        -1.25V        621.49mA       667.75mA       568.19mA
+        -1.20V        558.60mA       608.07mA       502.05mA
+        -1.15V        496.60mA       549.12mA       436.99mA
+        -1.10V        434.59mA       490.18mA       371.93mA
+        -1.05V        373.99mA       432.33mA       308.77mA
+        -1.00V        313.40mA       374.48mA       245.61mA
+      -950.00mV       255.32mA       318.40mA       186.44mA
+      -900.00mV       197.25mA       262.31mA       127.27mA
+      -850.00mV       144.71mA       209.48mA        79.83mA
+      -800.00mV        92.17mA       156.64mA        32.38mA
+      -750.00mV        55.33mA       111.07mA        16.79mA
+      -700.00mV        18.49mA        65.49mA         1.19mA
+      -650.00mV         9.65mA        38.30mA       604.77uA
+      -600.00mV       820.15uA        11.11mA        17.65uA
+      -550.00mV       421.62uA         5.87mA         8.95uA
+      -500.00mV        23.10uA       640.43uA       252.29nA
+      -450.00mV        11.87uA       334.72uA       127.92nA
+      -400.00mV       637.19nA        29.00uA         3.56nA
+      -350.00mV       327.35nA        15.15uA         1.77nA
+      -300.00mV        17.52nA         1.29uA       -18.28pA
+      -250.00mV         8.97nA       676.52nA       -32.21pA
+      -200.00mV       422.20pA        58.24nA       -46.13pA
+      -150.00mV       194.60pA        30.65nA       -55.98pA
+      -100.00mV       -32.99pA         3.06nA       -65.82pA
+       -50.00mV       -44.74pA         1.83nA       -54.23pA
+         0.00V        -56.48pA       599.52pA       -42.63pA
+|
+|*********************************************************************
+|
+[Ramp]
+|
+|                typ                 min                 max
+|
+dV/dt_r      1.59V/408.92ps      1.28V/563.27ps      1.95V/274.86ps
+dV/dt_f      1.89V/1.01ns        1.59V/1.26ns        2.21V/576.96ps
+|
+|*********************************************************************
+|
+[Model]        PCEBI00000A1K3KZZNMC
+Model_type     Input
+|
+Vinl = 1.50V
+Vinh = 3.50V
+|
+|                    typ                 min                 max
+|
+C_comp               2.30pF              1.24pF              4.28pF
+[Voltage range]      5.000V              4.750V              5.250V
+|
+|*********************************************************************
+|
+[GND_clamp]
+|
+|       Voltage         I(typ)         I(min)         I(max)
+|
+        -5.00V         -6.39A         -6.15A         -6.62A
+        -4.80V         -6.08A         -5.86A         -6.30A
+        -4.60V         -5.78A         -5.57A         -5.98A
+        -4.40V         -5.47A         -5.28A         -5.66A
+        -4.20V         -5.16A         -4.99A         -5.34A
+        -4.00V         -4.86A         -4.70A         -5.01A
+        -3.80V         -4.55A         -4.41A         -4.69A
+        -3.60V         -4.25A         -4.12A         -4.37A
+        -3.40V         -3.95A         -3.83A         -4.05A
+        -3.20V         -3.64A         -3.54A         -3.73A
+        -3.00V         -3.34A         -3.25A         -3.41A
+        -2.80V         -3.03A         -2.97A         -3.09A
+        -2.60V         -2.73A         -2.68A         -2.78A
+        -2.40V         -2.43A         -2.39A         -2.46A
+        -2.20V         -2.13A         -2.10A         -2.14A
+        -2.00V         -1.82A         -1.82A         -1.82A
+        -1.95V         -1.75A         -1.75A         -1.74A
+        -1.90V         -1.67A         -1.68A         -1.66A
+        -1.85V         -1.60A         -1.61A         -1.59A
+        -1.80V         -1.52A         -1.54A         -1.51A
+        -1.75V         -1.45A         -1.46A         -1.43A
+        -1.70V         -1.38A         -1.39A         -1.35A
+        -1.65V         -1.30A         -1.32A         -1.27A
+        -1.60V         -1.23A         -1.25A         -1.19A
+        -1.55V         -1.15A         -1.18A         -1.11A
+        -1.50V         -1.08A         -1.11A         -1.04A
+        -1.45V         -1.00A         -1.04A       -958.66mA
+        -1.40V       -930.38mA      -971.89mA      -880.98mA
+        -1.35V       -857.12mA      -902.43mA      -803.86mA
+        -1.30V       -783.87mA      -832.98mA      -726.75mA
+        -1.25V       -711.33mA      -764.15mA      -650.47mA
+        -1.20V       -638.80mA      -695.32mA      -574.19mA
+        -1.15V       -567.31mA      -627.36mA      -499.18mA
+        -1.10V       -495.81mA      -559.39mA      -424.16mA
+        -1.05V       -425.98mA      -492.72mA      -351.39mA
+        -1.00V       -356.14mA      -426.04mA      -278.61mA
+      -950.00mV      -289.30mA      -361.45mA      -210.58mA
+      -900.00mV      -222.46mA      -296.86mA      -142.54mA
+      -850.00mV      -162.24mA      -236.15mA       -88.64mA
+      -800.00mV      -102.02mA      -175.43mA       -34.73mA
+      -750.00mV       -60.69mA      -123.46mA       -17.96mA
+      -700.00mV       -19.37mA       -71.48mA        -1.20mA
+      -650.00mV       -10.10mA       -41.47mA      -609.84uA
+      -600.00mV      -825.82uA       -11.45mA       -18.06uA
+      -550.00mV      -424.68uA        -6.05mA        -9.17uA
+      -500.00mV       -23.54uA      -644.61uA      -285.58nA
+      -450.00mV       -12.11uA      -337.04uA      -145.73nA
+      -400.00mV      -685.44nA       -29.48uA        -5.87nA
+      -350.00mV      -353.79nA       -15.42uA        -3.00nA
+      -300.00mV       -22.14nA        -1.36uA      -122.32pA
+      -250.00mV       -11.47nA      -712.97nA       -42.15pA
+      -200.00mV      -798.90pA       -65.82nA        38.02pA
+      -150.00mV      -394.88pA       -34.77nA        50.44pA
+      -100.00mV         9.13pA        -3.71nA        62.87pA
+       -50.00mV        33.09pA        -2.10nA        52.25pA
+         0.00V         57.04pA      -494.00pA        41.63pA
+         5.00V         80.07pA       674.74nA        67.30pA
+|
+[POWER_clamp]
+|
+|       Voltage         I(typ)         I(min)         I(max)
+|
+        -5.00V          5.54A          5.33A          5.74A
+        -4.80V          5.28A          5.08A          5.46A
+        -4.60V          5.01A          4.83A          5.19A
+        -4.40V          4.75A          4.58A          4.91A
+        -4.20V          4.48A          4.33A          4.63A
+        -4.00V          4.22A          4.08A          4.35A
+        -3.80V          3.95A          3.83A          4.07A
+        -3.60V          3.69A          3.58A          3.80A
+        -3.40V          3.42A          3.33A          3.52A
+        -3.20V          3.16A          3.08A          3.24A
+        -3.00V          2.90A          2.83A          2.96A
+        -2.80V          2.63A          2.58A          2.69A
+        -2.60V          2.37A          2.33A          2.41A
+        -2.40V          2.11A          2.08A          2.13A
+        -2.20V          1.85A          1.83A          1.86A
+        -2.00V          1.59A          1.58A          1.58A
+        -1.95V          1.52A          1.52A          1.52A
+        -1.90V          1.46A          1.46A          1.45A
+        -1.85V          1.39A          1.40A          1.38A
+        -1.80V          1.33A          1.34A          1.31A
+        -1.75V          1.26A          1.27A          1.24A
+        -1.70V          1.20A          1.21A          1.17A
+        -1.65V          1.13A          1.15A          1.11A
+        -1.60V          1.07A          1.09A          1.04A
+        -1.55V          1.00A          1.03A        970.41mA
+        -1.50V        939.30mA       969.08mA       902.71mA
+        -1.45V        875.35mA       908.47mA       835.37mA
+        -1.40V        811.40mA       847.86mA       768.03mA
+        -1.35V        747.89mA       787.64mA       701.18mA
+        -1.30V        684.39mA       727.43mA       634.33mA
+        -1.25V        621.49mA       667.75mA       568.19mA
+        -1.20V        558.60mA       608.07mA       502.05mA
+        -1.15V        496.60mA       549.12mA       436.99mA
+        -1.10V        434.59mA       490.18mA       371.93mA
+        -1.05V        373.99mA       432.33mA       308.77mA
+        -1.00V        313.40mA       374.48mA       245.61mA
+      -950.00mV       255.32mA       318.40mA       186.44mA
+      -900.00mV       197.25mA       262.31mA       127.27mA
+      -850.00mV       144.71mA       209.48mA        79.82mA
+      -800.00mV        92.17mA       156.64mA        32.38mA
+      -750.00mV        55.33mA       111.07mA        16.79mA
+      -700.00mV        18.49mA        65.49mA         1.19mA
+      -650.00mV         9.65mA        38.30mA       604.77uA
+      -600.00mV       820.15uA        11.11mA        17.65uA
+      -550.00mV       421.62uA         5.87mA         8.95uA
+      -500.00mV        23.10uA       640.32uA       252.29nA
+      -450.00mV        11.87uA       334.66uA       127.93nA
+      -400.00mV       637.19nA        29.00uA         3.56nA
+      -350.00mV       327.36nA        15.15uA         1.77nA
+      -300.00mV        17.52nA         1.29uA       -16.34pA
+      -250.00mV         8.97nA       676.57nA       -29.85pA
+      -200.00mV       425.20pA        58.29nA       -43.37pA
+      -150.00mV       198.26pA        30.70nA       -53.63pA
+      -100.00mV       -28.69pA         3.11nA       -63.89pA
+       -50.00mV       -41.12pA         1.88nA       -51.88pA
+         0.00V        -53.55pA       648.87pA       -39.88pA
+|
+|*********************************************************************
+|
+[Ramp]
+|
+|                typ                 min                 max
+|
+dV/dt_r      0.00V/0.00s         0.00V/0.00s         0.00V/0.00s
+dV/dt_f      0.00V/0.00s         0.00V/0.00s         0.00V/0.00s
+|
+|*********************************************************************
+|
+[Model]        PCEBO08081AXXXXZZKMB
+Model_type     Output
+|
+|                    typ                 min                 max
+|
+C_comp               1.50pF              0.81pF              2.79pF
+[Voltage range]      5.000V              4.750V              5.250V
+|
+|*********************************************************************
+|
+[Pulldown]
+|
+|       Voltage         I(typ)         I(min)         I(max)
+|
+        -5.00V         -4.47A         -4.31A         -4.64A
+        -4.50V         -3.94A         -3.80A         -4.08A
+        -4.00V         -3.41A         -3.30A         -3.51A
+        -3.50V         -2.88A         -2.79A         -2.96A
+        -3.00V         -2.34A         -2.29A         -2.40A
+        -2.50V         -1.81A         -1.78A         -1.84A
+        -2.00V         -1.29A         -1.28A         -1.28A
+        -1.50V       -765.37mA      -789.56mA      -735.73mA
+        -1.40V       -662.43mA      -691.92mA      -627.46mA
+        -1.30V       -560.28mA      -594.96mA      -520.11mA
+        -1.20V       -459.24mA      -498.93mA      -414.16mA
+        -1.10V       -359.84mA      -404.17mA      -310.42mA
+        -1.00V       -263.11mA      -311.35mA      -210.84mA
+      -900.00mV      -171.41mA      -221.70mA      -121.13mA
+      -800.00mV       -91.49mA      -138.06mA       -62.77mA
+      -700.00mV       -43.85mA       -68.23mA       -49.16mA
+      -600.00mV       -32.59mA       -30.56mA       -42.68mA
+      -500.00mV       -27.37mA       -21.50mA       -36.16mA
+      -400.00mV       -22.23mA       -17.21mA       -29.42mA
+      -300.00mV       -16.93mA       -13.08mA       -22.44mA
+      -200.00mV       -11.47mA        -8.85mA       -15.22mA
+      -100.00mV        -5.82mA        -4.49mA        -7.74mA
+         0.00V         54.27pA      -492.35pA        41.97pA
+       100.00mV         5.76mA         4.43mA         7.67mA
+       200.00mV        11.21mA         8.63mA        14.91mA
+       300.00mV        16.37mA        12.61mA        21.75mA
+       400.00mV        21.23mA        16.36mA        28.19mA
+       500.00mV        25.81mA        19.89mA        34.25mA
+       600.00mV        30.12mA        23.22mA        39.93mA
+       700.00mV        34.16mA        26.34mA        45.26mA
+       800.00mV        37.94mA        29.25mA        50.23mA
+       900.00mV        41.47mA        31.97mA        54.86mA
+         1.00V         44.75mA        34.50mA        59.17mA
+         1.10V         47.79mA        36.84mA        63.16mA
+         1.20V         50.59mA        38.99mA        66.84mA
+         1.30V         53.17mA        40.97mA        70.22mA
+         1.40V         55.53mA        42.77mA        73.31mA
+         1.50V         57.68mA        44.41mA        76.13mA
+         1.60V         59.61mA        45.88mA        78.67mA
+         1.70V         61.35mA        47.18mA        80.96mA
+         1.80V         62.89mA        48.33mA        82.99mA
+         1.90V         64.24mA        49.33mA        84.77mA
+         2.00V         65.40mA        50.17mA        86.33mA
+         2.10V         66.38mA        50.87mA        87.65mA
+         2.20V         67.18mA        51.43mA        88.75mA
+         2.30V         67.82mA        51.85mA        89.64mA
+         2.40V         68.29mA        52.13mA        90.32mA
+         2.50V         68.51mA        52.22mA        90.50mA
+         2.60V         68.56mA        52.25mA        90.57mA
+         2.70V         68.60mA        52.28mA        90.63mA
+         2.80V         68.65mA        52.31mA        90.70mA
+         2.90V         68.69mA        52.35mA        90.76mA
+         3.00V         68.74mA        52.38mA        90.83mA
+         3.10V         68.78mA        52.41mA        90.90mA
+         3.20V         68.83mA        52.44mA        90.96mA
+         3.30V         68.87mA        52.48mA        91.03mA
+         3.40V         68.92mA        52.51mA        91.10mA
+         3.50V         68.96mA        52.54mA        91.16mA
+         3.60V         69.01mA        52.57mA        91.23mA
+         3.70V         69.05mA        52.61mA        91.30mA
+         3.80V         69.10mA        52.64mA        91.36mA
+         3.90V         69.14mA        52.67mA        91.43mA
+         4.00V         69.19mA        52.70mA        91.49mA
+         4.10V         69.23mA        52.74mA        91.56mA
+         4.20V         69.28mA        52.77mA        91.63mA
+         4.30V         69.32mA        52.80mA        91.69mA
+         4.40V         69.37mA        52.83mA        91.76mA
+         4.50V         69.41mA        52.87mA        91.83mA
+         4.60V         69.46mA        52.90mA        91.89mA
+         4.70V         69.50mA        52.93mA        91.96mA
+         4.80V         69.55mA        52.96mA        92.03mA
+         4.90V         69.60mA        53.00mA        92.09mA
+         5.00V         69.64mA        53.03mA        92.16mA
+         5.10V         69.69mA        53.07mA        92.22mA
+         5.20V         69.73mA        53.23mA        92.29mA
+         5.30V         69.78mA        56.00mA        92.36mA
+         5.40V         69.82mA        84.87mA        92.42mA
+         5.50V         69.89mA       161.52mA        92.49mA
+         5.60V         70.73mA       261.58mA        92.55mA
+         5.70V         88.44mA       371.08mA        92.62mA
+         5.80V        162.17mA       485.28mA        92.69mA
+         5.90V        267.29mA       602.23mA        92.90mA
+         6.00V        383.49mA       720.95mA       100.91mA
+         6.10V        504.73mA       840.92mA       167.68mA
+         6.20V        628.79mA       961.80mA       277.89mA
+         6.30V        754.63mA         1.08A        401.15mA
+         6.40V        881.68mA         1.21A        529.73mA
+         6.50V          1.01A          1.33A        661.13mA
+         7.00V          1.66A          1.95A          1.34A
+         7.50V          2.31A          2.57A          2.02A
+         8.00V          2.97A          3.19A          2.71A
+         8.50V          3.63A          3.82A          3.40A
+         9.00V          4.29A          4.45A          4.10A
+         9.50V          4.95A          5.07A          4.79A
+        10.00V          5.61A          5.70A          5.49A
+|
+[Pullup]
+|
+|       Voltage         I(typ)         I(min)         I(max)
+|
+        -5.00V          5.54A          5.33A          5.74A
+        -4.50V          4.88A          4.70A          5.05A
+        -4.00V          4.22A          4.08A          4.35A
+        -3.50V          3.56A          3.45A          3.66A
+        -3.00V          2.90A          2.83A          2.96A
+        -2.50V          2.24A          2.20A          2.27A
+        -2.00V          1.59A          1.58A          1.59A
+        -1.50V        940.36mA       969.86mA       904.16mA
+        -1.40V        812.62mA       848.74mA       769.72mA
+        -1.30V        685.81mA       728.44mA       636.36mA
+        -1.20V        560.32mA       609.26mA       504.58mA
+        -1.10V        436.75mA       491.63mA       375.29mA
+        -1.00V        316.29mA       376.32mA       250.51mA
+      -900.00mV       201.56mA       264.80mA       135.92mA
+      -800.00mV        99.92mA       160.41mA        53.29mA
+      -700.00mV        35.17mA        72.27mA        32.60mA
+      -600.00mV        20.79mA        23.42mA        27.61mA
+      -500.00mV        16.97mA        13.29mA        23.02mA
+      -400.00mV        13.57mA        10.30mA        18.43mA
+      -300.00mV        10.18mA         7.71mA        13.83mA
+      -200.00mV         6.78mA         5.13mA         9.22mA
+      -100.00mV         3.39mA         2.56mA         4.60mA
+         0.00V        -60.77pA       593.47pA       -46.33pA
+       100.00mV        -3.34mA        -2.52mA        -4.54mA
+       200.00mV        -6.58mA        -4.96mA        -8.96mA
+       300.00mV        -9.73mA        -7.33mA       -13.27mA
+       400.00mV       -12.78mA        -9.63mA       -17.45mA
+       500.00mV       -15.74mA       -11.84mA       -21.52mA
+       600.00mV       -18.61mA       -13.98mA       -25.46mA
+       700.00mV       -21.38mA       -16.04mA       -29.29mA
+       800.00mV       -24.06mA       -18.03mA       -33.00mA
+       900.00mV       -26.64mA       -19.94mA       -36.58mA
+         1.00V        -29.13mA       -21.77mA       -40.05mA
+         1.10V        -31.52mA       -23.53mA       -43.39mA
+         1.20V        -33.81mA       -25.21mA       -46.61mA
+         1.30V        -36.01mA       -26.81mA       -49.71mA
+         1.40V        -38.11mA       -28.34mA       -52.68mA
+         1.50V        -40.12mA       -29.78mA       -55.54mA
+         1.60V        -42.03mA       -31.15mA       -58.26mA
+         1.70V        -43.84mA       -32.45mA       -60.87mA
+         1.80V        -45.56mA       -33.66mA       -63.35mA
+         1.90V        -47.18mA       -34.80mA       -65.71mA
+         2.00V        -48.70mA       -35.85mA       -67.94mA
+         2.10V        -50.13mA       -36.84mA       -70.05mA
+         2.20V        -51.45mA       -37.74mA       -72.03mA
+         2.30V        -52.68mA       -38.56mA       -73.88mA
+         2.40V        -53.81mA       -39.31mA       -75.61mA
+         2.50V        -54.84mA       -39.97mA       -77.21mA
+         2.60V        -55.78mA       -40.56mA       -78.69mA
+         2.70V        -56.61mA       -41.07mA       -80.04mA
+         2.80V        -57.35mA       -41.50mA       -81.26mA
+         2.90V        -57.99mA       -41.86mA       -82.35mA
+         3.00V        -58.53mA       -42.13mA       -83.32mA
+         3.10V        -58.97mA       -42.32mA       -84.15mA
+         3.20V        -59.31mA       -42.44mA       -84.86mA
+         3.30V        -59.55mA       -43.06mA       -85.44mA
+         3.40V        -59.69mA       -43.45mA       -85.89mA
+         3.50V        -60.60mA       -43.74mA       -86.21mA
+         3.60V        -61.12mA       -44.00mA       -86.40mA
+         3.70V        -61.52mA       -44.23mA       -87.69mA
+         3.80V        -61.87mA       -44.45mA       -88.43mA
+         3.90V        -62.19mA       -44.65mA       -89.01mA
+         4.00V        -62.49mA       -44.84mA       -89.51mA
+         4.10V        -62.77mA       -45.03mA       -89.97mA
+         4.20V        -63.03mA       -45.21mA       -90.39mA
+         4.30V        -63.29mA       -45.38mA       -90.79mA
+         4.40V        -63.53mA       -45.55mA       -91.16mA
+         4.50V        -63.77mA       -45.71mA       -91.52mA
+         4.60V        -64.00mA       -45.88mA       -91.87mA
+         4.70V        -64.23mA       -46.03mA       -92.21mA
+         4.80V        -64.45mA       -46.19mA       -92.54mA
+         4.90V        -64.67mA       -46.34mA       -92.86mA
+         5.00V        -64.88mA       -46.49mA       -93.17mA
+         5.10V        -65.09mA       -46.65mA       -93.48mA
+         5.20V        -65.30mA       -46.93mA       -93.78mA
+         5.30V        -65.50mA       -49.77mA       -94.08mA
+         5.40V        -65.71mA       -75.85mA       -94.37mA
+         5.50V        -65.93mA      -139.77mA       -94.66mA
+         5.60V        -66.92mA      -221.33mA       -94.94mA
+         5.70V        -83.45mA      -310.08mA       -95.22mA
+         5.80V       -145.45mA      -402.49mA       -95.50mA
+         5.90V       -231.19mA      -497.03mA       -95.92mA
+         6.00V       -325.38mA      -592.96mA      -103.78mA
+         6.10V       -423.47mA      -689.88mA      -160.64mA
+         6.20V       -523.77mA      -787.51mA      -250.60mA
+         6.30V       -625.47mA      -885.71mA      -350.51mA
+         6.40V       -728.13mA      -984.34mA      -454.56mA
+         6.50V       -831.49mA        -1.08A       -560.82mA
+         7.00V         -1.35A         -1.58A         -1.11A
+         7.50V         -1.88A         -2.08A         -1.66A
+         8.00V         -2.41A         -2.59A         -2.22A
+         8.50V         -2.95A         -3.09A         -2.78A
+         9.00V         -3.48A         -3.60A         -3.34A
+         9.50V         -4.01A         -4.11A         -3.90A
+        10.00V         -4.55A         -4.61A         -4.46A
+|
+|*********************************************************************
+|
+[Ramp]
+|
+|                typ                 min                 max
+|
+dV/dt_r      1.59V/1.16ns        1.28V/1.34ns        1.95V/978.84ps
+dV/dt_f      1.88V/1.34ns        1.55V/1.43ns        2.21V/1.16ns
+|
+|*********************************************************************
+|
+[Model]        PCEBI00000A0S2AZZVTC
+Model_type     Input
+|
+Vinl = 0.80V
+Vinh = 2.00V
+|
+|                    typ                 min                 max
+|
+C_comp               2.30pF              1.24pF              4.28pF
+[Voltage range]      5.000V              4.750V              5.250V
+|
+|*********************************************************************
+|
+[GND_clamp]
+|
+|       Voltage         I(typ)         I(min)         I(max)
+|
+        -5.00V        -12.16A        -11.69A        -12.61A
+        -4.80V        -11.57A        -11.14A        -11.99A
+        -4.60V        -10.99A        -10.58A        -11.38A
+        -4.40V        -10.40A        -10.03A        -10.77A
+        -4.20V         -9.82A         -9.48A        -10.15A
+        -4.00V         -9.24A         -8.92A         -9.54A
+        -3.80V         -8.65A         -8.37A         -8.93A
+        -3.60V         -8.07A         -7.82A         -8.32A
+        -3.40V         -7.49A         -7.27A         -7.70A
+        -3.20V         -6.91A         -6.71A         -7.09A
+        -3.00V         -6.33A         -6.16A         -6.48A
+        -2.80V         -5.75A         -5.61A         -5.87A
+        -2.60V         -5.17A         -5.06A         -5.26A
+        -2.40V         -4.59A         -4.51A         -4.65A
+        -2.20V         -4.01A         -3.97A         -4.04A
+        -2.00V         -3.44A         -3.42A         -3.44A
+        -1.95V         -3.29A         -3.29A         -3.29A
+        -1.90V         -3.15A         -3.15A         -3.14A
+        -1.85V         -3.01A         -3.01A         -2.99A
+        -1.80V         -2.86A         -2.88A         -2.83A
+        -1.75V         -2.72A         -2.74A         -2.68A
+        -1.70V         -2.58A         -2.61A         -2.53A
+        -1.65V         -2.44A         -2.47A         -2.38A
+        -1.60V         -2.29A         -2.34A         -2.23A
+        -1.55V         -2.15A         -2.20A         -2.09A
+        -1.50V         -2.01A         -2.07A         -1.94A
+        -1.45V         -1.87A         -1.94A         -1.79A
+        -1.40V         -1.73A         -1.80A         -1.64A
+        -1.35V         -1.59A         -1.67A         -1.49A
+        -1.30V         -1.45A         -1.54A         -1.34A
+        -1.25V         -1.31A         -1.41A         -1.20A
+        -1.20V         -1.17A         -1.27A         -1.05A
+        -1.15V         -1.04A         -1.15A       -910.69mA
+        -1.10V       -899.14mA        -1.02A       -767.78mA
+        -1.05V       -766.41mA      -889.04mA      -629.59mA
+        -1.00V       -633.68mA      -762.23mA      -491.40mA
+      -950.00mV      -507.43mA      -639.92mA      -363.65mA
+      -900.00mV      -381.19mA      -517.60mA      -235.90mA
+      -850.00mV      -270.00mA      -403.89mA      -140.95mA
+      -800.00mV      -158.81mA      -290.19mA       -46.00mA
+      -750.00mV       -90.91mA      -196.83mA       -23.61mA
+      -700.00mV       -23.01mA      -103.47mA        -1.22mA
+      -650.00mV       -11.92mA       -58.08mA      -621.29uA
+      -600.00mV      -836.80uA       -12.69mA       -18.49uA
+      -550.00mV      -430.39uA        -6.67mA        -9.40uA
+      -500.00mV       -23.98uA      -651.88uA      -318.99nA
+      -450.00mV       -12.36uA      -340.92uA      -163.57nA
+      -400.00mV      -733.79nA       -29.96uA        -8.15nA
+      -350.00mV      -380.25nA       -15.69uA        -4.17nA
+      -300.00mV       -26.71nA        -1.43uA      -187.16pA
+      -250.00mV       -13.92nA      -749.57nA       -58.24pA
+      -200.00mV        -1.12nA       -73.46nA        70.68pA
+      -150.00mV      -540.37pA       -38.94nA       100.97pA
+      -100.00mV        38.58pA        -4.43nA       131.25pA
+       -50.00mV        73.40pA        -2.43nA       103.94pA
+         0.00V        108.22pA      -431.29pA        76.62pA
+         5.00V        141.99pA       274.33nA        89.67pA
+|
+[POWER_clamp]
+|
+|       Voltage         I(typ)         I(min)         I(max)
+|
+        -5.00V         10.88A         10.47A         11.29A
+        -4.80V         10.36A          9.98A         10.74A
+        -4.60V          9.84A          9.48A         10.19A
+        -4.40V          9.32A          8.98A          9.64A
+        -4.20V          8.80A          8.49A          9.09A
+        -4.00V          8.27A          7.99A          8.54A
+        -3.80V          7.75A          7.50A          8.00A
+        -3.60V          7.23A          7.00A          7.45A
+        -3.40V          6.71A          6.51A          6.90A
+        -3.20V          6.19A          6.02A          6.35A
+        -3.00V          5.67A          5.52A          5.81A
+        -2.80V          5.15A          5.03A          5.26A
+        -2.60V          4.63A          4.54A          4.71A
+        -2.40V          4.11A          4.05A          4.17A
+        -2.20V          3.60A          3.56A          3.63A
+        -2.00V          3.08A          3.07A          3.08A
+        -1.95V          2.95A          2.95A          2.95A
+        -1.90V          2.83A          2.83A          2.81A
+        -1.85V          2.70A          2.71A          2.68A
+        -1.80V          2.57A          2.58A          2.54A
+        -1.75V          2.44A          2.46A          2.41A
+        -1.70V          2.31A          2.34A          2.27A
+        -1.65V          2.19A          2.22A          2.14A
+        -1.60V          2.06A          2.10A          2.01A
+        -1.55V          1.93A          1.98A          1.87A
+        -1.50V          1.81A          1.86A          1.74A
+        -1.45V          1.68A          1.74A          1.61A
+        -1.40V          1.55A          1.62A          1.47A
+        -1.35V          1.43A          1.50A          1.34A
+        -1.30V          1.30A          1.38A          1.21A
+        -1.25V          1.18A          1.27A          1.08A
+        -1.20V          1.06A          1.15A        949.45mA
+        -1.15V        933.90mA         1.03A        821.50mA
+        -1.10V        811.95mA       917.10mA       693.56mA
+        -1.05V        693.06mA       803.54mA       569.76mA
+        -1.00V        574.18mA       689.98mA       445.96mA
+      -950.00mV       460.97mA       580.35mA       331.28mA
+      -900.00mV       347.76mA       470.72mA       216.59mA
+      -850.00mV       247.62mA       368.59mA       130.29mA
+      -800.00mV       147.47mA       266.46mA        43.99mA
+      -750.00mV        84.94mA       181.92mA        22.60mA
+      -700.00mV        22.40mA        97.38mA         1.21mA
+      -650.00mV        11.62mA        54.93mA       615.47uA
+      -600.00mV       829.14uA        12.49mA        17.66uA
+      -550.00mV       426.12uA         6.57mA         8.96uA
+      -500.00mV        23.11uA       645.42uA       252.42nA
+      -450.00mV        11.88uA       337.21uA       127.97nA
+      -400.00mV       637.31nA        29.01uA         3.52nA
+      -350.00mV       327.39nA        15.15uA         1.71nA
+      -300.00mV        17.47nA         1.30uA       -95.63pA
+      -250.00mV         8.92nA       676.75nA       -87.56pA
+      -200.00mV       371.68pA        58.39nA       -79.49pA
+      -150.00mV       145.37pA        30.80nA      -109.14pA
+      -100.00mV       -80.95pA         3.21nA      -138.80pA
+       -50.00mV       -91.22pA         1.98nA      -105.01pA
+         0.00V       -101.50pA       746.04pA       -71.22pA
+|
+|*********************************************************************
+|
+[Ramp]
+|
+|                typ                 min                 max
+|
+dV/dt_r      0.00V/0.00s         0.00V/0.00s         0.00V/0.00s
+dV/dt_f      0.00V/0.00s         0.00V/0.00s         0.00V/0.00s
+|
+[End]

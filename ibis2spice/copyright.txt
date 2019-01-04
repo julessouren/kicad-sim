@@ -1,0 +1,7 @@
+Copyright 1998 by Intusoft Corp.
+ALL RIGHTS RESERVED
+
+This program contains proprietary information of Intusoft Corp. Its receipt or possession does not 
+convey any rights to reproduce, disclose its contents, or to manufacture anything it may describe. 
+Distribution on an individual basis is permitted. Posting on the Internet and/or electronic bulletin 
+boards in any form or manner is strictly forbidden.

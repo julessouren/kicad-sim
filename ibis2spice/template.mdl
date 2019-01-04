@@ -1,0 +1,164 @@
+<<version=1>>
+<<info>>
+<<copyright>>
+<<warnings>>
+<<DecimalDigits 3>>
+<<optionname_1=PWL Device tables>>
+<<optionname_2=Intusoft B Device tables>>
+**********
+<<#common>>
+*SRC=<<model_name>><<bwt>>;<<model_name>><<bwt>>;IBIS_BUFFER;<<model_type>>;<<bwt_long>>
+<<if input>>
+*SYM=IBISI
+<<endif>>
+<<if not_input>>
+*SYM=IBISO
+<<endif>>
+<<if input>>
+.SUBCKT <<model_name>><<bwt>> 4 300 400
+*Connections    Input VCC VEE
+<<pin_list>>
+<<if power_clamp>>
+XPOWER_CLAMP 6 300 300 6 POWER_CLAMP
+<<endif>>
+<<if gnd_clamp>>
+XGND_CLAMP 6 400 6 400 GND_CLAMP
+<<endif>>
+V5 6 5 
+* Package Parasitics <<bwt_long>>
+ROSNB 5 1 100
+ROPKG 1 4 <<r_pkg>>
+COPKG 4 400 <<c_pkg>>
+CCOMP 5 400 <<c_comp>>
+LOPKG 5 1 <<l_pkg>>
+.ENDS
+<<endif>>	<<; end of if input>>
+<<if not_input>>
+.SUBCKT <<model_name>><<bwt>> 100 4 300 400 500
+*Connections    Input Output VCC VEE Enable
+<<pin_list>>
+*Model Version; <<bwt_long>>
+*DEFINE {RTF}=<<rtf>>
+*DEFINE {RTR}=<<rtr>>
+* Input Control
+B1 820 0 V=V(100) & V(500)
+B2 830 0 V= V(500) & ~V(100)
+* Up and Down Ramps
+B3 300 850 I= V(830) > 1.2   ? 0 : V(300,850) / {RTR}
+RB3 300 850 100MEG
+B4 840 400 I= V(820) > 1.2 ? 0 : V(840,400) / {RTF}
+RB4 840 400 100MEG
+C1 300 850 .01P
+C2 840 400 .01P
+S1 220 850 0 820 SMOD
+S2 840 220 0 830 SMOD
+.MODEL SMOD SW RON=.1M ROFF=1E15 VT=-1.2 VH=.1
+G1 8 400 2 8 1
+R1 6 400 1
+G2 300 8 8 3 1
+R2 300 6 1
+* Pull-up/Pull-down structures; <<bwt_long>>
+<<if pulldown>>
+XPULL_DOWN 2 400 8 840 PULL_DOWN
+<<endif>>
+<<if pullup>>
+XPULL_UP 3 300 850 8 PULL_UP
+<<endif>>
+* Diode Clamps
+<<if power_clamp>>
+XPOWER_CLAMP 6 300 300 6 POWER_CLAMP
+<<endif>>
+<<if gnd_clamp>>
+XGND_CLAMP 6 400 6 400 GND_CLAMP
+<<endif>>
+* Package Parasitics: <<bwt_long>>
+ROSNB 5 1 100
+ROPKG 1 4 <<r_pkg>>
+COPKG 4 400 <<c_pkg>>
+CCOMP 5 400 <<c_comp>>
+LOPKG 5 1 <<l_pkg>>
+* Voltage Sources for measuring currents
+V5 6 5 
+V6 8 6 
+V7 220 8 
+.ENDS
+<<endif>> <<*end of if not_input>>
+<<#end common>>
+<<#option1>>
+<<if option 1>>
+<<if gnd_clamp>>
+.SUBCKT GND_CLAMP 3    4   1   2
+* Connections     Out+ Out In+ In
+AGndClamp %vd(1,2) %id(3,4) transfer
+.model transfer pwl
++ fraction = FALSE, input_domain = 0.0, xy_array = [
+<<PWL_GND_CLAMP>>
++ ]
+.ENDS
+<<endif>>
+<<if power_clamp>>
+.SUBCKT POWER_CLAMP 3    4   1   2
+* Connections       Out+ Out In+ In
+APwrClamp %vd(1,2) %id(3,4) transfer
+.model transfer pwl
++ fraction = FALSE, input_domain = 0.0, xy_array = [
+<<PWL_PWR_CLAMP>>
++ ]
+.ENDS
+<<endif>>
+<<if pullup>>
+.SUBCKT PULL_UP 3    4   1   2
+* Connections   Out+ Out In+ In
+APullUp %vd(1,2) %vd(3,4) transfer
+.model transfer pwl
++ fraction = FALSE, input_domain = 0.0, xy_array = [
+<<PWL_PULLUP>>
++ ]
+.ENDS
+<<endif>>
+<<if pulldown>>
+.SUBCKT PULL_DOWN 3    4   1   2
+* Connections       Out+ Out In+ In
+APullDown %vd(1,2) %vd(3,4) transfer
+.model transfer pwl
++ fraction = FALSE, input_domain = 0.0, xy_array = [
+<<PWL_PULLDOWN>>
++ ]
+.ENDS
+<<endif>>
+<< endif >> <<#end if option 1>>
+<<#end option1>>
+<<#option2>>
+<<if option 2>>
+<<if gnd_clamp>>
+.SUBCKT GND_CLAMP 3    4   1   2
+* Connections     Out+ Out In+ In
+BGND_CLAMP 3 4 I=
+<<B_GND_CLAMP>>
+.ENDS
+<<endif>>
+<<if power_clamp>>
+.SUBCKT POWER_CLAMP 3    4   1   2
+* Connections       Out+ Out In+ In
+BPWR_CLAMP 3 4 I=
+<<B_PWR_CLAMP>>
+.ENDS
+<<endif>>
+<<if pullup>>
+.SUBCKT PULL_UP 3    4   1   2
+* Connections   Out+ Out In+ In
+BPULL_UP 3 4 V=
+<<B_PULLUP>>
+.ENDS
+<<endif>>
+<<if pulldown>>
+.SUBCKT PULL_DOWN 3    4   1   2
+* Connections     Out+ Out In+ In
+BPULL_DOWN 3 4 V=
+<<B_PULLDOWN>>
+.ENDS
+<<endif>>
+<<ENDif>>	<<*end of if option 2>>
+<<#end option2>>
+**********
+
