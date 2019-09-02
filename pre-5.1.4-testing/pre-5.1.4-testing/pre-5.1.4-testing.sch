@@ -1,0 +1,82 @@
+EESchema Schematic File Version 4
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Simulation_SPICE:VDC V1
+U 1 1 5D555B00
+P 4600 3650
+F 0 "V1" H 4730 3741 50  0000 L CNN
+F 1 "5" H 4730 3650 50  0000 L CNN
+F 2 "" H 4600 3650 50  0001 C CNN
+F 3 "~" H 4600 3650 50  0001 C CNN
+F 4 "Y" H 4600 3650 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 4600 3650 50  0001 L CNN "Spice_Primitive"
+F 6 "dc(1)" H 4730 3559 50  0000 L CNN "Spice_Model"
+	1    4600 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 3400 4600 3450
+Wire Wire Line
+	4600 3900 4600 3850
+$Comp
+L pspice:0 #GND01
+U 1 1 5D556F82
+P 4600 4100
+F 0 "#GND01" H 4600 4000 50  0001 C CNN
+F 1 "0" H 4750 4150 50  0000 C CNN
+F 2 "" H 4600 4100 50  0001 C CNN
+F 3 "~" H 4600 4100 50  0001 C CNN
+	1    4600 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 4100 4600 3900
+Connection ~ 4600 3900
+$Comp
+L pspice:R R1
+U 1 1 5D55768E
+P 5950 3400
+F 0 "R1" V 5745 3400 50  0000 C CNN
+F 1 "1k" V 5836 3400 50  0000 C CNN
+F 2 "" H 5950 3400 50  0001 C CNN
+F 3 "~" H 5950 3400 50  0001 C CNN
+	1    5950 3400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5700 3400 5650 3400
+Wire Wire Line
+	6350 3900 6350 3400
+Wire Wire Line
+	6350 3400 6200 3400
+Wire Wire Line
+	4600 3900 6350 3900
+$Comp
+L Simulation_SPICE:DIODE D1
+U 1 1 5D5591BD
+P 5500 3400
+F 0 "D1" H 5500 3617 50  0000 C CNN
+F 1 "DIODE" H 5500 3526 50  0000 C CNN
+F 2 "" H 5500 3400 50  0001 C CNN
+F 3 "~" H 5500 3400 50  0001 C CNN
+F 4 "Y" H 5500 3400 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 5500 3400 50  0001 L CNN "Spice_Primitive"
+	1    5500 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 3400 5350 3400
+$EndSCHEMATC

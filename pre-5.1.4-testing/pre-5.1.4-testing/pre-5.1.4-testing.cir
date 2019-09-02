@@ -1,0 +1,4 @@
+.title KiCad schematic
+VD1 supply+ supply- DIODE
+V1 supply+ supply- dc(1)
+.end

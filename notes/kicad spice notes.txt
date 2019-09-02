@@ -1,0 +1,39 @@
+Downloaded SPICE model for MMBF3906LT1G transistor; modification needed?
+- MMBT3906LT1.LIB     --> .MODEL Qmmbt3906lt1 pnp
+- MMBT3906Lt1_Mod.LIB --> .MODEL qMMBT3906LT1 pnp
+
+KiCad symbol fields: 
+Spice_Primitive: Q
+Spice_Model: qMMBT3906LT1
+Spice_Lib_File: MMBT3906LT1_Mod.LIB
+
+--> .MODEL 'q' should be lowercase instead of default uppercase 'Q'?
+
+-----------------------------
+Symbol library "Simulation_SPICE" has diode with following fields:
+Spice_Primitive: V
+-----------------------------
+
+Demo: Rectifier appears to work
+
+D1 / 1N4148 symbol fields:
+- Spice_Primitive: D
+- Spice_Node_Sequence: 2 1
+
+Spice Model Editor:
+- Model Tab
+  -- Library: nothing	
+  -- Model: 1N4148 (nothing in dropdown box)
+  -- Type: Diode
+  -- Alternate node sequence: 2 1
+
+Demo: pspice appears to work:
+
+Q1 / Q2N2222 symbol fields:
+- Only non-SPICE fields present
+- Edit Spice Model only shows
+  - Model: Q2N2222
+
+Schematic SPICE Directive: 
+- .model Q2N2222 npn (bf=200) (bf = ideal max forward beta) 
+ 
